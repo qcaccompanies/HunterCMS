@@ -3,18 +3,24 @@
    <description></description>
    <name>inputAnswer</name>
    <tag></tag>
-   <elementGuidId>10d8c703-194c-4af3-a93c-2706f0fc7b94</elementGuidId>
+   <elementGuidId>95237677-678c-4ce6-bd9c-cc94d5699df6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@class = 'form-control app-textarea ng-untouched ng-pristine ng-valid text-area input' and @name = 'textarea1']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -42,25 +48,25 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>widget-id351</value>
+      <value>widget-id328</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;widget-id351&quot;)</value>
+      <value>id(&quot;widget-id328&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='widget-id351']</value>
+      <value>//textarea[@id='widget-id328']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

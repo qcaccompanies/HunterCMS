@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FAQ Management,Chrome 81.0.4044.138,,,2020-05-28 22:50:40,2020-05-28 22:52:03,"1m - 23,058s",ERROR
+,,,,,,,
+Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ,Chrome 81.0.4044.138,,,2020-05-28 22:50:41,2020-05-28 22:52:03,"1m - 21,801s",ERROR
+"callTestCase(findTestCase(""Rizka/MainLogin""), [:], STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-28 22:50:43,2020-05-28 22:51:44,"1m - 1,218s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnFAQManagement""))",Chrome 81.0.4044.138,,,2020-05-28 22:51:44,2020-05-28 22:51:48,"4,137s",PASSED
+delay(7),Chrome 81.0.4044.138,,,2020-05-28 22:51:48,2020-05-28 22:51:55,"7,006s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnTambahFAQ""))",Chrome 81.0.4044.138,,,2020-05-28 22:51:55,2020-05-28 22:51:56,"0,715s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputQuestion""), question)",Chrome 81.0.4044.138,,,2020-05-28 22:51:56,2020-05-28 22:51:57,"0,919s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputAnswer""), answer)",Chrome 81.0.4044.138,,,2020-05-28 22:51:57,2020-05-28 22:51:57,"0,712s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-28 22:51:57,2020-05-28 22:52:03,"5,637s",PASSED

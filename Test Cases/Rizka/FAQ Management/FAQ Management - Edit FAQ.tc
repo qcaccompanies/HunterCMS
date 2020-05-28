@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FAQ Management - Edit FAQ</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>258d5107-4a0a-47c3-b256-910997d3706e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c71a8771-b6cf-465c-b912-92a82d2d20b9</id>
+      <masked>false</masked>
+      <name>questionAfter</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>111b6598-59bb-4709-ae94-544558bb9aa8</id>
+      <masked>false</masked>
+      <name>questionBefore</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9170d004-a0e8-47fb-84f5-7ed8c828955e</id>
+      <masked>false</masked>
+      <name>answer</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fc22e184-769b-4b74-979a-62d9e0c82da6</id>
+      <masked>false</masked>
+      <name>condition</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FAQ Management - Search FAQ</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8315bbe6-6912-4dce-965f-9fab92800bf5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>54de5cd1-b2f3-4028-8b4f-4e3394925657</id>
+      <masked>false</masked>
+      <name>namaFAQ</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c1b10568-8e1c-433b-b36b-2cf7e4d142d5</id>
+      <masked>false</masked>
+      <name>condition</name>
+   </variable>
+</TestCaseEntity>

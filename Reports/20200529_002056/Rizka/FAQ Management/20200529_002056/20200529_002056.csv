@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FAQ Management,Chrome 81.0.4044.138,,,2020-05-29 00:21:17,2020-05-29 00:24:27,"3m - 10,452s",PASSED
+,,,,,,,
+Test Cases/Rizka/FAQ Management/FAQ Management - Search FAQ,Chrome 81.0.4044.138,,,2020-05-29 00:21:19,2020-05-29 00:23:01,"1m - 42,577s",PASSED
+"callTestCase(findTestCase(""Rizka/MainLogin""), [:], STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-29 00:21:21,2020-05-29 00:22:39,"1m - 18,013s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnFAQManagement""))",Chrome 81.0.4044.138,,,2020-05-29 00:22:39,2020-05-29 00:22:45,"6,061s",PASSED
+delay(7),Chrome 81.0.4044.138,,,2020-05-29 00:22:45,2020-05-29 00:22:52,"7,005s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputSearchFAQ""), namaFAQ)",Chrome 81.0.4044.138,,,2020-05-29 00:22:52,2020-05-29 00:22:53,"1,118s",PASSED
+"sendKeys(findTestObject(""Rizka/FAQ Management/inputSearchFAQ""), Keys.chord(ENTER))",Chrome 81.0.4044.138,,,2020-05-29 00:22:53,2020-05-29 00:22:54,"0,957s",PASSED
+delay(7),Chrome 81.0.4044.138,,,2020-05-29 00:22:54,2020-05-29 00:23:01,"7,007s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-29 00:23:01,2020-05-29 00:23:01,"0,585s",PASSED
+,,,,,,,
+Test Cases/Rizka/FAQ Management/FAQ Management - Search FAQ,Chrome 81.0.4044.138,,,2020-05-29 00:23:01,2020-05-29 00:24:27,"1m - 26,039s",PASSED
+"callTestCase(findTestCase(""Rizka/MainLogin""), [:], STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-29 00:23:01,2020-05-29 00:24:08,"1m - 6,080s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnFAQManagement""))",Chrome 81.0.4044.138,,,2020-05-29 00:24:08,2020-05-29 00:24:12,"4,036s",PASSED
+delay(7),Chrome 81.0.4044.138,,,2020-05-29 00:24:12,2020-05-29 00:24:19,"7,007s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputSearchFAQ""), namaFAQ)",Chrome 81.0.4044.138,,,2020-05-29 00:24:19,2020-05-29 00:24:19,"0,907s",PASSED
+"sendKeys(findTestObject(""Rizka/FAQ Management/inputSearchFAQ""), Keys.chord(ENTER))",Chrome 81.0.4044.138,,,2020-05-29 00:24:19,2020-05-29 00:24:20,"0,468s",PASSED
+delay(7),Chrome 81.0.4044.138,,,2020-05-29 00:24:20,2020-05-29 00:24:27,"7,005s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-29 00:24:27,2020-05-29 00:24:27,"0,001s",PASSED
+else,Chrome 81.0.4044.138,,,2020-05-29 00:24:27,2020-05-29 00:24:27,"0,483s",PASSED

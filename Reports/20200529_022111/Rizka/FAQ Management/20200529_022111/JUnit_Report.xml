@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FAQ Management" time="114.126" tests="1" failures="1" errors="0">
+   <testsuite name="FAQ Management" tests="1" failures="1" errors="0" time="114.126" timestamp="2020-05-29 02:21:27" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/FAQ Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\HunterCMS\\Reports\\20200529_022111\\Rizka\\FAQ Management\\20200529_022111"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\HunterCMS\\Reports\\20200529_022111\\Rizka\\FAQ Management\\20200529_022111\\execution0.log"/>
+         <property name="attachments" value="D:\\MY WORLD\\WORKS (TUGAS)\\HunterCMS\\Reports\\20200529_022111\\Rizka\\FAQ Management\\20200529_022111\\1590693799548.png"/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="82ae7239d782e7cc442cd8c19a6990a4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ" time="111.0" classname="Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Question Edit 2' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1726)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$4.call(Unknown Source)
+	at FAQ Management - Edit FAQ.run(FAQ Management - Edit FAQ:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590693671883.run(TempTestSuite1590693671883.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Question Edit 2' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-29 02:21:28 - [TEST_CASE][FAILED] - Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ: Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Question Edit 2' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1726)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$4.call(Unknown Source)
+	at FAQ Management - Edit FAQ.run(FAQ Management - Edit FAQ:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590693671883.run(TempTestSuite1590693671883.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Question Edit 2' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-29 02:21:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/MainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-29 02:21:32 - [TEST_CASE][PASSED] - Test Cases/Rizka/MainLogin: Test Cases/Rizka/MainLogin
+
+2020-05-29 02:21:33 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-29 02:21:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 02:21:34 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-29 02:22:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-29 02:22:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 02:22:15 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 02:22:15 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-29 02:22:30 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-29 02:22:30 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputUsername"), "admin@mail.com"): Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-29 02:22:31 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-29 02:22:31 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputPassword"), "Password1#"): Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-29 02:22:32 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-29 02:22:32 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEyePass")): Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-29 02:22:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-29 02:22:33 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSignIn")): Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-29 02:22:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-29 02:22:33 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-29 02:22:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-29 02:22:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-29 02:22:43 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnFAQManagement")): Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-29 02:22:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-29 02:22:48 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-29 02:22:55 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-29 02:22:55 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), questionBefore): Text 'Question New 2' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 02:22:56 - [MESSAGE][PASSED] - Text 'Question New 2' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 02:22:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 02:22:57 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 02:22:57 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-29 02:23:04 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-29 02:23:04 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSettings")): Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 02:23:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 02:23:04 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEdit")): Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 02:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 02:23:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 02:23:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 02:23:08 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputEditQuestion"), questionAfter): Text 'Question Edit 2' is set on object 'Object Repository/Rizka/FAQ Management/inputEditQuestion'
+
+2020-05-29 02:23:09 - [MESSAGE][PASSED] - Text 'Question Edit 2' is set on object 'Object Repository/Rizka/FAQ Management/inputEditQuestion'
+
+2020-05-29 02:23:09 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputEditAns"), answer): Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputEditAns'
+
+2020-05-29 02:23:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputEditAns'
+
+2020-05-29 02:23:10 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-05-29 02:23:10 - [TEST_STEP][PASSED] - else if (condition == "cancel"): null
+
+2020-05-29 02:23:10 - [TEST_STEP][FAILED] - else: Unable to verify text 'Question Edit 2' is not present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Question Edit 2' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1726)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$4.call(Unknown Source)
+	at FAQ Management - Edit FAQ.run(FAQ Management - Edit FAQ:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590693671883.run(TempTestSuite1590693671883.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Question Edit 2' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-29 02:23:10 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSimpanEdit")): Object: 'Object Repository/Rizka/FAQ Management/btnSimpanEdit' is clicked on
+
+2020-05-29 02:23:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSimpanEdit' is clicked on
+
+2020-05-29 02:23:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-29 02:23:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-29 02:23:15 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), questionAfter): Text 'Question Edit 2' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 02:23:16 - [MESSAGE][PASSED] - Text 'Question Edit 2' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 02:23:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 02:23:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 02:23:16 - [TEST_STEP][FAILED] - verifyTextNotPresent(questionAfter, false): Unable to verify text 'Question Edit 2' is not present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Question Edit 2' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1726)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$4.call(Unknown Source)
+	at FAQ Management - Edit FAQ.run(FAQ Management - Edit FAQ:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590693671883.run(TempTestSuite1590693671883.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Question Edit 2' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-29 02:23:19 - [MESSAGE][FAILED] - Text 'Question Edit 2' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Question Edit 2' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1726)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$4.call(Unknown Source)
+	at FAQ Management - Edit FAQ.run(FAQ Management - Edit FAQ:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590693671883.run(TempTestSuite1590693671883.groovy:36)
+)
+
+2020-05-29 02:23:19 - [MESSAGE][FAILED] - Unable to verify text 'Question Edit 2' is not present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Question Edit 2' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1726)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$4.call(Unknown Source)
+	at FAQ Management - Edit FAQ.run(FAQ Management - Edit FAQ:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590693671883.run(TempTestSuite1590693671883.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Question Edit 2' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\MY WORLD\\WORKS (TUGAS)\\HunterCMS\\Reports\\20200529_022111\\Rizka\\FAQ Management\\20200529_022111\\1590693799548.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-29 02:21:28 - [TEST_CASE][FAILED] - Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ: Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Question Edit 2' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1726)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$4.call(Unknown Source)
+	at FAQ Management - Edit FAQ.run(FAQ Management - Edit FAQ:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590693671883.run(TempTestSuite1590693671883.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Question Edit 2' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 02:21:27 - [TEST_SUITE][FAILED] - FAQ Management: Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Question Edit 2' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1726)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$4.call(Unknown Source)
+	at FAQ Management - Edit FAQ.run(FAQ Management - Edit FAQ:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590693671883.run(TempTestSuite1590693671883.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Question Edit 2' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-29 02:21:27 - [TEST_SUITE][FAILED] - FAQ Management: Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Question Edit 2' is not present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1726)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$4.call(Unknown Source)
+	at FAQ Management - Edit FAQ.run(FAQ Management - Edit FAQ:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590693671883.run(TempTestSuite1590693671883.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Question Edit 2' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

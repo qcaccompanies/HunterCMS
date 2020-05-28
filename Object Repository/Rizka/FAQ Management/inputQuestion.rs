@@ -3,11 +3,17 @@
    <description></description>
    <name>inputQuestion</name>
    <tag></tag>
-   <elementGuidId>0db902fc-3f7c-4489-9025-a7d5c27611ae</elementGuidId>
+   <elementGuidId>90da9a3a-2616-4e91-9c02-f086e4c2fe30</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @name = 'text1']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -56,25 +62,25 @@
       <value>on</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>widget-id345</value>
+      <value>widget-id322</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;widget-id345&quot;)</value>
+      <value>id(&quot;widget-id322&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='widget-id345']</value>
+      <value>//input[@id='widget-id322']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

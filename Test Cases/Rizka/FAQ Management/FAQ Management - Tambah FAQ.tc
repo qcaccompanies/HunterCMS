@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FAQ Management - Tambah FAQ</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4337b56-6fc8-4010-8ea4-3025fbeb64dc</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d871c1ce-d022-4c00-9656-fed411afe7cc</id>
+      <masked>false</masked>
+      <name>question</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0b3aec41-29a9-4ddc-ad32-97e35a55ef2f</id>
+      <masked>false</masked>
+      <name>answer</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d7feb956-ccce-49fd-9ee7-615f5598bc46</id>
+      <masked>false</masked>
+      <name>condition</name>
+   </variable>
+</TestCaseEntity>

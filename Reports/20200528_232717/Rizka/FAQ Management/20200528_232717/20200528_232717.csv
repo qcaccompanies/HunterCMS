@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FAQ Management,Chrome 81.0.4044.138,,,2020-05-28 23:27:32,2020-05-28 23:33:06,"5m - 34,321s",PASSED
+,,,,,,,
+Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ,Chrome 81.0.4044.138,,,2020-05-28 23:27:33,2020-05-28 23:28:46,"1m - 13,083s",PASSED
+"callTestCase(findTestCase(""Rizka/MainLogin""), [:], STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-28 23:27:34,2020-05-28 23:28:28,"54,346s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnFAQManagement""))",Chrome 81.0.4044.138,,,2020-05-28 23:28:28,2020-05-28 23:28:31,"2,339s",PASSED
+delay(7),Chrome 81.0.4044.138,,,2020-05-28 23:28:31,2020-05-28 23:28:38,"7,006s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnTambahFAQ""))",Chrome 81.0.4044.138,,,2020-05-28 23:28:38,2020-05-28 23:28:38,"0,531s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputQuestion""), question)",Chrome 81.0.4044.138,,,2020-05-28 23:28:38,2020-05-28 23:28:39,"0,937s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputAnswer""), answer)",Chrome 81.0.4044.138,,,2020-05-28 23:28:39,2020-05-28 23:28:40,"0,718s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-28 23:28:40,2020-05-28 23:28:46,"6,139s",PASSED
+,,,,,,,
+Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ,Chrome 81.0.4044.138,,,2020-05-28 23:28:46,2020-05-28 23:29:49,"1m - 3,063s",PASSED
+"callTestCase(findTestCase(""Rizka/MainLogin""), [:], STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-28 23:28:46,2020-05-28 23:29:37,"50,611s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnFAQManagement""))",Chrome 81.0.4044.138,,,2020-05-28 23:29:37,2020-05-28 23:29:37,"0,663s",PASSED
+delay(7),Chrome 81.0.4044.138,,,2020-05-28 23:29:37,2020-05-28 23:29:44,"7,005s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnTambahFAQ""))",Chrome 81.0.4044.138,,,2020-05-28 23:29:44,2020-05-28 23:29:45,"0,955s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputQuestion""), question)",Chrome 81.0.4044.138,,,2020-05-28 23:29:45,2020-05-28 23:29:46,"0,954s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputAnswer""), answer)",Chrome 81.0.4044.138,,,2020-05-28 23:29:46,2020-05-28 23:29:47,"0,582s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-28 23:29:47,2020-05-28 23:29:47,"0,003s",PASSED
+"else if (condition == ""cancel"")",Chrome 81.0.4044.138,,,2020-05-28 23:29:47,2020-05-28 23:29:47,"0,003s",PASSED
+else,Chrome 81.0.4044.138,,,2020-05-28 23:29:47,2020-05-28 23:29:49,"2,222s",PASSED
+,,,,,,,
+Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ,Chrome 81.0.4044.138,,,2020-05-28 23:29:49,2020-05-28 23:30:48,"58,531s",PASSED
+"callTestCase(findTestCase(""Rizka/MainLogin""), [:], STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-28 23:29:49,2020-05-28 23:30:34,"44,999s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnFAQManagement""))",Chrome 81.0.4044.138,,,2020-05-28 23:30:34,2020-05-28 23:30:35,"0,738s",PASSED
+delay(7),Chrome 81.0.4044.138,,,2020-05-28 23:30:35,2020-05-28 23:30:42,"7,005s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnTambahFAQ""))",Chrome 81.0.4044.138,,,2020-05-28 23:30:42,2020-05-28 23:30:44,"1,518s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputQuestion""), question)",Chrome 81.0.4044.138,,,2020-05-28 23:30:44,2020-05-28 23:30:44,"0,838s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputAnswer""), answer)",Chrome 81.0.4044.138,,,2020-05-28 23:30:44,2020-05-28 23:30:45,"0,859s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-28 23:30:45,2020-05-28 23:30:45,"0,001s",PASSED
+"else if (condition == ""cancel"")",Chrome 81.0.4044.138,,,2020-05-28 23:30:45,2020-05-28 23:30:45,"0,001s",PASSED
+else,Chrome 81.0.4044.138,,,2020-05-28 23:30:45,2020-05-28 23:30:48,"2,550s",PASSED
+,,,,,,,
+Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ,Chrome 81.0.4044.138,,,2020-05-28 23:30:48,2020-05-28 23:31:53,"1m - 4,956s",PASSED
+"callTestCase(findTestCase(""Rizka/MainLogin""), [:], STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-28 23:30:48,2020-05-28 23:31:39,"50,858s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnFAQManagement""))",Chrome 81.0.4044.138,,,2020-05-28 23:31:39,2020-05-28 23:31:42,"2,844s",PASSED
+delay(7),Chrome 81.0.4044.138,,,2020-05-28 23:31:42,2020-05-28 23:31:49,"7,006s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnTambahFAQ""))",Chrome 81.0.4044.138,,,2020-05-28 23:31:49,2020-05-28 23:31:49,"0,485s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputQuestion""), question)",Chrome 81.0.4044.138,,,2020-05-28 23:31:49,2020-05-28 23:31:50,"0,615s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputAnswer""), answer)",Chrome 81.0.4044.138,,,2020-05-28 23:31:50,2020-05-28 23:31:50,"0,633s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-28 23:31:50,2020-05-28 23:31:50,"0,000s",PASSED
+"else if (condition == ""cancel"")",Chrome 81.0.4044.138,,,2020-05-28 23:31:50,2020-05-28 23:31:50,"0,000s",PASSED
+else,Chrome 81.0.4044.138,,,2020-05-28 23:31:50,2020-05-28 23:31:53,"2,431s",PASSED
+,,,,,,,
+Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ,Chrome 81.0.4044.138,,,2020-05-28 23:31:53,2020-05-28 23:33:06,"1m - 13,402s",PASSED
+"callTestCase(findTestCase(""Rizka/MainLogin""), [:], STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-28 23:31:53,2020-05-28 23:32:47,"54,519s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnFAQManagement""))",Chrome 81.0.4044.138,,,2020-05-28 23:32:47,2020-05-28 23:32:51,"3,808s",PASSED
+delay(7),Chrome 81.0.4044.138,,,2020-05-28 23:32:51,2020-05-28 23:32:58,"7,006s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnTambahFAQ""))",Chrome 81.0.4044.138,,,2020-05-28 23:32:58,2020-05-28 23:32:59,"0,577s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputQuestion""), question)",Chrome 81.0.4044.138,,,2020-05-28 23:32:59,2020-05-28 23:33:00,"0,836s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputAnswer""), answer)",Chrome 81.0.4044.138,,,2020-05-28 23:33:00,2020-05-28 23:33:00,"0,580s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-28 23:33:00,2020-05-28 23:33:00,"0,001s",PASSED
+"else if (condition == ""cancel"")",Chrome 81.0.4044.138,,,2020-05-28 23:33:00,2020-05-28 23:33:06,"6,039s",PASSED

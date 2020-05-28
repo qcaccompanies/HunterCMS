@@ -4,10 +4,16 @@
    <name>alertUpdateFailed</name>
    <tag></tag>
    <elementGuidId>f183c738-e43d-4bc1-954c-92f9a459a9f3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Update data gagal' or . = 'Update data gagal')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

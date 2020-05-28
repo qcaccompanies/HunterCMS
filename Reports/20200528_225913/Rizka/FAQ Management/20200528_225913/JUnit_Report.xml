@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FAQ Management" time="79.428" tests="1" failures="0" errors="1">
+   <testsuite name="FAQ Management" tests="1" failures="0" errors="1" time="79.428" timestamp="2020-05-28 22:59:28" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/FAQ Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\HunterCMS\\Reports\\20200528_225913\\Rizka\\FAQ Management\\20200528_225913"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\HunterCMS\\Reports\\20200528_225913\\Rizka\\FAQ Management\\20200528_225913\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="62f1ea1231c93359886de496df62607d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ" time="76.682" classname="Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ" status="ERROR">
+         <error type="ERROR" message="Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1590670621293
+	at FAQ Management - Tambah FAQ.run(FAQ Management - Tambah FAQ:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590681553359.run(TempTestSuite1590681553359.groovy:36)
+"/>
+         <system-out><![CDATA[2020-05-28 22:59:29 - [TEST_CASE][ERROR] - Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ: Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1590670621293
+	at FAQ Management - Tambah FAQ.run(FAQ Management - Tambah FAQ:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590681553359.run(TempTestSuite1590681553359.groovy:36)
+
+
+2020-05-28 22:59:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/MainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-28 22:59:31 - [TEST_CASE][PASSED] - Test Cases/Rizka/MainLogin: Test Cases/Rizka/MainLogin
+
+2020-05-28 22:59:31 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-28 22:59:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 22:59:32 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-28 22:59:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-28 22:59:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-28 23:00:01 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-28 23:00:01 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 23:00:16 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 23:00:16 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputUsername"), "admin@mail.com"): Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-28 23:00:17 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-28 23:00:17 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputPassword"), "Password1#"): Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-28 23:00:18 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-28 23:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEyePass")): Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-28 23:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-28 23:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSignIn")): Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-28 23:00:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-28 23:00:19 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-28 23:00:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-28 23:00:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-28 23:00:29 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnFAQManagement")): Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-28 23:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-28 23:00:30 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-28 23:00:37 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-28 23:00:37 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnTambahFAQ")): Object: 'Object Repository/Rizka/FAQ Management/btnTambahFAQ' is clicked on
+
+2020-05-28 23:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnTambahFAQ' is clicked on
+
+2020-05-28 23:00:38 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputQuestion"), question): Text 'Question New 1' is set on object 'Object Repository/Rizka/FAQ Management/inputQuestion'
+
+2020-05-28 23:00:39 - [MESSAGE][PASSED] - Text 'Question New 1' is set on object 'Object Repository/Rizka/FAQ Management/inputQuestion'
+
+2020-05-28 23:00:39 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputAnswer"), answer): Text 'Answer New 1' is set on object 'Object Repository/Rizka/FAQ Management/inputAnswer'
+
+2020-05-28 23:00:39 - [MESSAGE][PASSED] - Text 'Answer New 1' is set on object 'Object Repository/Rizka/FAQ Management/inputAnswer'
+
+2020-05-28 23:00:39 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-05-28 23:00:39 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnTambahForm")): Object: 'Object Repository/Rizka/FAQ Management/btnTambahForm' is clicked on
+
+2020-05-28 23:00:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnTambahForm' is clicked on
+
+2020-05-28 23:00:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 23:00:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 23:00:45 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), question): Text 'Question New 1' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-28 23:00:46 - [MESSAGE][PASSED] - Text 'Question New 1' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-28 23:00:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), Keys.chord(ENTER)): null]]></system-out>
+         <system-err><![CDATA[2020-05-28 22:59:29 - [TEST_CASE][ERROR] - Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ: Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1590670621293
+	at FAQ Management - Tambah FAQ.run(FAQ Management - Tambah FAQ:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590681553359.run(TempTestSuite1590681553359.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-28 22:59:28 - [TEST_SUITE][ERROR] - FAQ Management: Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1590670621293
+	at FAQ Management - Tambah FAQ.run(FAQ Management - Tambah FAQ:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590681553359.run(TempTestSuite1590681553359.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-05-28 22:59:28 - [TEST_SUITE][ERROR] - FAQ Management: Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1590670621293
+	at FAQ Management - Tambah FAQ.run(FAQ Management - Tambah FAQ:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590681553359.run(TempTestSuite1590681553359.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

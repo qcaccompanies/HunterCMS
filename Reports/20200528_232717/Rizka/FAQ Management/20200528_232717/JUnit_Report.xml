@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FAQ Management" time="336.083" tests="5" failures="0" errors="0">
+   <testsuite name="FAQ Management" tests="5" failures="0" errors="0" time="336.083" timestamp="2020-05-28 23:27:32" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/FAQ Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\HunterCMS\\Reports\\20200528_232717\\Rizka\\FAQ Management\\20200528_232717"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\HunterCMS\\Reports\\20200528_232717\\Rizka\\FAQ Management\\20200528_232717\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="8889723b6cf9a6e4a0e9c49d42dfb945"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ" time="73.083" classname="Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ" status="PASSED">
+         <system-out><![CDATA[2020-05-28 23:27:33 - [TEST_CASE][PASSED] - Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ: Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ
+
+2020-05-28 23:27:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/MainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-28 23:27:35 - [TEST_CASE][PASSED] - Test Cases/Rizka/MainLogin: Test Cases/Rizka/MainLogin
+
+2020-05-28 23:27:36 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-28 23:27:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 23:27:37 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-28 23:27:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-28 23:27:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-28 23:28:01 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-28 23:28:01 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 23:28:16 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 23:28:16 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputUsername"), "admin@mail.com"): Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-28 23:28:17 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-28 23:28:17 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputPassword"), "Password1#"): Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-28 23:28:17 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-28 23:28:17 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEyePass")): Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-28 23:28:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-28 23:28:18 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSignIn")): Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-28 23:28:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-28 23:28:18 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-28 23:28:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-28 23:28:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-28 23:28:28 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnFAQManagement")): Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-28 23:28:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-28 23:28:31 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-28 23:28:38 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-28 23:28:38 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnTambahFAQ")): Object: 'Object Repository/Rizka/FAQ Management/btnTambahFAQ' is clicked on
+
+2020-05-28 23:28:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnTambahFAQ' is clicked on
+
+2020-05-28 23:28:38 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputQuestion"), question): Text 'Question New 1' is set on object 'Object Repository/Rizka/FAQ Management/inputQuestion'
+
+2020-05-28 23:28:39 - [MESSAGE][PASSED] - Text 'Question New 1' is set on object 'Object Repository/Rizka/FAQ Management/inputQuestion'
+
+2020-05-28 23:28:39 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputAnswer"), answer): Text 'Answer New 1' is set on object 'Object Repository/Rizka/FAQ Management/inputAnswer'
+
+2020-05-28 23:28:40 - [MESSAGE][PASSED] - Text 'Answer New 1' is set on object 'Object Repository/Rizka/FAQ Management/inputAnswer'
+
+2020-05-28 23:28:40 - [TEST_STEP][PASSED] - if (condition == "passed"): Text 'Question New 1' is present on page 
+
+2020-05-28 23:28:40 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnTambahForm")): Object: 'Object Repository/Rizka/FAQ Management/btnTambahForm' is clicked on
+
+2020-05-28 23:28:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnTambahForm' is clicked on
+
+2020-05-28 23:28:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 23:28:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 23:28:45 - [TEST_STEP][PASSED] - verifyTextPresent(question, false): Text 'Question New 1' is present on page 
+
+2020-05-28 23:28:46 - [MESSAGE][PASSED] - Text 'Question New 1' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ" time="63.063" classname="Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ" status="PASSED">
+         <system-out><![CDATA[2020-05-28 23:28:46 - [TEST_CASE][PASSED] - Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ: Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ
+
+2020-05-28 23:28:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/MainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-28 23:28:46 - [TEST_CASE][PASSED] - Test Cases/Rizka/MainLogin: Test Cases/Rizka/MainLogin
+
+2020-05-28 23:28:46 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-28 23:28:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-28 23:28:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 23:29:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-28 23:29:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-28 23:29:09 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-28 23:29:09 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 23:29:24 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 23:29:24 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputUsername"), "admin@mail.com"): Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-28 23:29:25 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-28 23:29:25 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputPassword"), "Password1#"): Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-28 23:29:26 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-28 23:29:26 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEyePass")): Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-28 23:29:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-28 23:29:26 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSignIn")): Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-28 23:29:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-28 23:29:27 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-28 23:29:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-28 23:29:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-28 23:29:37 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnFAQManagement")): Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-28 23:29:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-28 23:29:37 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-28 23:29:44 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-28 23:29:44 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnTambahFAQ")): Object: 'Object Repository/Rizka/FAQ Management/btnTambahFAQ' is clicked on
+
+2020-05-28 23:29:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnTambahFAQ' is clicked on
+
+2020-05-28 23:29:45 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputQuestion"), question): Text 'Question New 2' is set on object 'Object Repository/Rizka/FAQ Management/inputQuestion'
+
+2020-05-28 23:29:46 - [MESSAGE][PASSED] - Text 'Question New 2' is set on object 'Object Repository/Rizka/FAQ Management/inputQuestion'
+
+2020-05-28 23:29:46 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputAnswer"), answer): Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputAnswer'
+
+2020-05-28 23:29:47 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputAnswer'
+
+2020-05-28 23:29:47 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-05-28 23:29:47 - [TEST_STEP][PASSED] - else if (condition == "cancel"): null
+
+2020-05-28 23:29:47 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Rizka/FAQ Management/alertInsertFailed' is present
+
+2020-05-28 23:29:47 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnTambahForm")): Object: 'Object Repository/Rizka/FAQ Management/btnTambahForm' is clicked on
+
+2020-05-28 23:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnTambahForm' is clicked on
+
+2020-05-28 23:29:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Rizka/FAQ Management/alertInsertFailed"), 0): Object 'Object Repository/Rizka/FAQ Management/alertInsertFailed' is present
+
+2020-05-28 23:29:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-28 23:29:49 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/FAQ Management/alertInsertFailed' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ" time="58.531" classname="Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ" status="PASSED">
+         <system-out><![CDATA[2020-05-28 23:29:49 - [TEST_CASE][PASSED] - Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ: Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ
+
+2020-05-28 23:29:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/MainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-28 23:29:49 - [TEST_CASE][PASSED] - Test Cases/Rizka/MainLogin: Test Cases/Rizka/MainLogin
+
+2020-05-28 23:29:49 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-28 23:29:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-28 23:29:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 23:30:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-28 23:30:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-28 23:30:07 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-28 23:30:07 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 23:30:22 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 23:30:22 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputUsername"), "admin@mail.com"): Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-28 23:30:23 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-28 23:30:23 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputPassword"), "Password1#"): Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-28 23:30:23 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-28 23:30:23 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEyePass")): Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-28 23:30:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-28 23:30:24 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSignIn")): Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-28 23:30:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-28 23:30:24 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-28 23:30:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-28 23:30:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-28 23:30:34 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnFAQManagement")): Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-28 23:30:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-28 23:30:35 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-28 23:30:42 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-28 23:30:42 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnTambahFAQ")): Object: 'Object Repository/Rizka/FAQ Management/btnTambahFAQ' is clicked on
+
+2020-05-28 23:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnTambahFAQ' is clicked on
+
+2020-05-28 23:30:44 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputQuestion"), question): Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputQuestion'
+
+2020-05-28 23:30:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputQuestion'
+
+2020-05-28 23:30:44 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputAnswer"), answer): Text 'Answer New 3' is set on object 'Object Repository/Rizka/FAQ Management/inputAnswer'
+
+2020-05-28 23:30:45 - [MESSAGE][PASSED] - Text 'Answer New 3' is set on object 'Object Repository/Rizka/FAQ Management/inputAnswer'
+
+2020-05-28 23:30:45 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-05-28 23:30:45 - [TEST_STEP][PASSED] - else if (condition == "cancel"): null
+
+2020-05-28 23:30:45 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Rizka/FAQ Management/alertInsertFailed' is present
+
+2020-05-28 23:30:45 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnTambahForm")): Object: 'Object Repository/Rizka/FAQ Management/btnTambahForm' is clicked on
+
+2020-05-28 23:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnTambahForm' is clicked on
+
+2020-05-28 23:30:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Rizka/FAQ Management/alertInsertFailed"), 0): Object 'Object Repository/Rizka/FAQ Management/alertInsertFailed' is present
+
+2020-05-28 23:30:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-28 23:30:48 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/FAQ Management/alertInsertFailed' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ" time="64.956" classname="Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ" status="PASSED">
+         <system-out><![CDATA[2020-05-28 23:30:48 - [TEST_CASE][PASSED] - Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ: Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ
+
+2020-05-28 23:30:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/MainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-28 23:30:48 - [TEST_CASE][PASSED] - Test Cases/Rizka/MainLogin: Test Cases/Rizka/MainLogin
+
+2020-05-28 23:30:48 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-28 23:30:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-28 23:30:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 23:31:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-28 23:31:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-28 23:31:11 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-28 23:31:11 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 23:31:26 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 23:31:26 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputUsername"), "admin@mail.com"): Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-28 23:31:27 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-28 23:31:27 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputPassword"), "Password1#"): Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-28 23:31:28 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-28 23:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEyePass")): Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-28 23:31:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-28 23:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSignIn")): Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-28 23:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-28 23:31:29 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-28 23:31:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-28 23:31:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-28 23:31:39 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnFAQManagement")): Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-28 23:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-28 23:31:42 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-28 23:31:49 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-28 23:31:49 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnTambahFAQ")): Object: 'Object Repository/Rizka/FAQ Management/btnTambahFAQ' is clicked on
+
+2020-05-28 23:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnTambahFAQ' is clicked on
+
+2020-05-28 23:31:49 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputQuestion"), question): Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputQuestion'
+
+2020-05-28 23:31:50 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputQuestion'
+
+2020-05-28 23:31:50 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputAnswer"), answer): Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputAnswer'
+
+2020-05-28 23:31:50 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputAnswer'
+
+2020-05-28 23:31:50 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-05-28 23:31:50 - [TEST_STEP][PASSED] - else if (condition == "cancel"): null
+
+2020-05-28 23:31:50 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Rizka/FAQ Management/alertInsertFailed' is present
+
+2020-05-28 23:31:50 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnTambahForm")): Object: 'Object Repository/Rizka/FAQ Management/btnTambahForm' is clicked on
+
+2020-05-28 23:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnTambahForm' is clicked on
+
+2020-05-28 23:31:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Rizka/FAQ Management/alertInsertFailed"), 0): Object 'Object Repository/Rizka/FAQ Management/alertInsertFailed' is present
+
+2020-05-28 23:31:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-28 23:31:53 - [MESSAGE][PASSED] - Object 'Object Repository/Rizka/FAQ Management/alertInsertFailed' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ" time="73.402" classname="Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ" status="PASSED">
+         <system-out><![CDATA[2020-05-28 23:31:53 - [TEST_CASE][PASSED] - Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ: Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ
+
+2020-05-28 23:31:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/MainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-28 23:31:53 - [TEST_CASE][PASSED] - Test Cases/Rizka/MainLogin: Test Cases/Rizka/MainLogin
+
+2020-05-28 23:31:53 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-28 23:31:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-28 23:31:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 23:32:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-28 23:32:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-28 23:32:20 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-28 23:32:20 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-28 23:32:35 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-28 23:32:35 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputUsername"), "admin@mail.com"): Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-28 23:32:35 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-28 23:32:35 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputPassword"), "Password1#"): Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-28 23:32:36 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-28 23:32:36 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEyePass")): Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-28 23:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-28 23:32:37 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSignIn")): Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-28 23:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-28 23:32:37 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-28 23:32:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-28 23:32:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-28 23:32:47 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnFAQManagement")): Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-28 23:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-28 23:32:51 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-28 23:32:58 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-28 23:32:58 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnTambahFAQ")): Object: 'Object Repository/Rizka/FAQ Management/btnTambahFAQ' is clicked on
+
+2020-05-28 23:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnTambahFAQ' is clicked on
+
+2020-05-28 23:32:59 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputQuestion"), question): Text 'Question New 4' is set on object 'Object Repository/Rizka/FAQ Management/inputQuestion'
+
+2020-05-28 23:33:00 - [MESSAGE][PASSED] - Text 'Question New 4' is set on object 'Object Repository/Rizka/FAQ Management/inputQuestion'
+
+2020-05-28 23:33:00 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputAnswer"), answer): Text 'Answer New 4' is set on object 'Object Repository/Rizka/FAQ Management/inputAnswer'
+
+2020-05-28 23:33:00 - [MESSAGE][PASSED] - Text 'Answer New 4' is set on object 'Object Repository/Rizka/FAQ Management/inputAnswer'
+
+2020-05-28 23:33:00 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-05-28 23:33:00 - [TEST_STEP][PASSED] - else if (condition == "cancel"): Text 'Question New 4' is not present on page
+
+2020-05-28 23:33:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-28 23:33:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-28 23:33:05 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnCancelTambahForm")): Object: 'Object Repository/Rizka/FAQ Management/btnCancelTambahForm' is clicked on
+
+2020-05-28 23:33:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnCancelTambahForm' is clicked on
+
+2020-05-28 23:33:06 - [TEST_STEP][PASSED] - verifyTextNotPresent(question, false): Text 'Question New 4' is not present on page
+
+2020-05-28 23:33:06 - [MESSAGE][PASSED] - Text 'Question New 4' is not present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-28 23:27:32 - [TEST_SUITE][PASSED] - FAQ Management: Test Cases/Rizka/FAQ Management/FAQ Management - Tambah FAQ]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

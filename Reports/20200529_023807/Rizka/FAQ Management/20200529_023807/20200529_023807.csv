@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FAQ Management,,,,2020-05-29 02:38:29,2020-05-29 02:39:13,"43,582s",FAILED
+,,,,,,,
+Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ,,,,2020-05-29 02:38:33,2020-05-29 02:39:13,"39,794s",FAILED
+"callTestCase(findTestCase(""Rizka/MainLogin""), [:], STOP_ON_FAILURE)",,,,2020-05-29 02:38:38,2020-05-29 02:39:13,"34,362s",FAILED
