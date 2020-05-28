@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>94cfc25d-cf7c-458b-a2cc-6ac47d615668</testCaseGuid>
+   <variable>
+      <defaultValue>'admin@mail.com'</defaultValue>
+      <description></description>
+      <id>e97aa15d-b237-45e1-8814-159ecada96f2</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1#'</defaultValue>
+      <description></description>
+      <id>ac79a8ab-214f-467e-85ea-0a75daf2da9d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
