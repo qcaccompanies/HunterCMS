@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>edit reward</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>291f6d37-6ff7-48e2-8441-f825643a187d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f0537832-8329-40b0-bd26-5570b15f9ee0</id>
+      <masked>false</masked>
+      <name>search_reward</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>150edd6f-7fdb-46ac-adab-5bdb4109f621</id>
+      <masked>false</masked>
+      <name>reward_found</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>37a6b897-0ff2-4ad1-bd7e-c5fa28aeb5ff</id>
+      <masked>false</masked>
+      <name>nama_reward_baru</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b8155d33-6be0-4c47-ac45-3c62267b0cde</id>
+      <masked>false</masked>
+      <name>img_reward_baru</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9a23661b-c546-4d7f-af69-96041e2cbb10</id>
+      <masked>false</masked>
+      <name>desc_reward_baru</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>56884e5f-d5ba-4f4f-a4da-0eac935b9d96</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f8048130-2d6a-4d2a-9fc8-89443d17a48d</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

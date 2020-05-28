@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tambah reward</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>656a233b-2acf-4cff-aa34-1eda1d894d75</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f8bcd9e8-37cf-458f-b1e6-1d69dae4369c</id>
+      <masked>false</masked>
+      <name>nama_reward</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1771764a-fbe0-4489-8427-da4d7882b483</id>
+      <masked>false</masked>
+      <name>img_reward</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>405bcef0-e37f-44b5-990a-0b149253d607</id>
+      <masked>false</masked>
+      <name>desc_reward</name>
+   </variable>
+</TestCaseEntity>
