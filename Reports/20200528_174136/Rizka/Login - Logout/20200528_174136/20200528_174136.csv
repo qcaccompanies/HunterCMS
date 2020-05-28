@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login - Logout,Chrome 81.0.4044.138,,,2020-05-28 17:41:49,2020-05-28 17:42:56,"1m - 7,614s",PASSED
+,,,,,,,
+Test Cases/Rizka/Login - Logout,Chrome 81.0.4044.138,,,2020-05-28 17:41:50,2020-05-28 17:42:56,"1m - 6,325s",PASSED
+"openBrowser(""https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"")",Chrome 81.0.4044.138,,,2020-05-28 17:41:52,2020-05-28 17:42:25,"33,442s",PASSED
+maximizeWindow(),Chrome 81.0.4044.138,,,2020-05-28 17:42:25,2020-05-28 17:42:26,"1,253s",PASSED
+delay(15),Chrome 81.0.4044.138,,,2020-05-28 17:42:26,2020-05-28 17:42:41,"15,076s",PASSED
+"setText(findTestObject(""Rizka/Login - Logout/inputUsername""), username)",Chrome 81.0.4044.138,,,2020-05-28 17:42:41,2020-05-28 17:42:42,"0,813s",PASSED
+"setText(findTestObject(""Rizka/Login - Logout/inputPassword""), password)",Chrome 81.0.4044.138,,,2020-05-28 17:42:42,2020-05-28 17:42:43,"0,653s",PASSED
+"click(findTestObject(""Rizka/Login - Logout/btnEyePass""))",Chrome 81.0.4044.138,,,2020-05-28 17:42:43,2020-05-28 17:42:43,"0,498s",PASSED
+"click(findTestObject(""Rizka/Login - Logout/btnSignIn""))",Chrome 81.0.4044.138,,,2020-05-28 17:42:43,2020-05-28 17:42:44,"0,561s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-28 17:42:44,2020-05-28 17:42:54,"10,006s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-28 17:42:54,2020-05-28 17:42:56,"2,404s",PASSED

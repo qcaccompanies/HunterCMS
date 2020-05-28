@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FAQ Management - Delete FAQ</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7dd4085-82ba-4ad5-a33f-fba70a9f1ef0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>933909ae-b96e-46fb-b46e-58597fd42504</id>
+      <masked>false</masked>
+      <name>namaFAQ</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0c3e702c-cda9-45e7-8106-aa41c62ab148</id>
+      <masked>false</masked>
+      <name>condition</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Rizka/Login - Logout - Iteration 1","testCaseId":"Test Cases/Rizka/Login - Logout","bindedValues":{"password":"\u0027Password1#\u0027","condition":"\u0027passed\u0027","username":"\u0027admin@mail.com\u0027"}}
+{"testCaseName":"Test Cases/Rizka/Login - Logout - Iteration 2","testCaseId":"Test Cases/Rizka/Login - Logout","bindedValues":{"password":"\u0027Password1#\u0027","condition":"\u0027failed\u0027","username":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/Rizka/Login - Logout - Iteration 3","testCaseId":"Test Cases/Rizka/Login - Logout","bindedValues":{"password":"\u0027\u0027","condition":"\u0027failed\u0027","username":"\u0027admin@mail.com\u0027"}}
+{"testCaseName":"Test Cases/Rizka/Login - Logout - Iteration 4","testCaseId":"Test Cases/Rizka/Login - Logout","bindedValues":{"password":"\u0027\u0027","condition":"\u0027failed\u0027","username":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/Rizka/Login - Logout - Iteration 5","testCaseId":"Test Cases/Rizka/Login - Logout","bindedValues":{"password":"\u0027Password1#\u0027","condition":"\u0027logoutPassed\u0027","username":"\u0027admin@mail.com\u0027"}}

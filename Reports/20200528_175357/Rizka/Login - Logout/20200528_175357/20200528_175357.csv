@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login - Logout,Chrome 81.0.4044.138,,,2020-05-28 17:54:18,2020-05-28 17:59:48,"5m - 29,694s",PASSED
+,,,,,,,
+Test Cases/Rizka/Login - Logout,Chrome 81.0.4044.138,,,2020-05-28 17:54:19,2020-05-28 17:55:38,"1m - 18,907s",PASSED
+"openBrowser(""https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"")",Chrome 81.0.4044.138,,,2020-05-28 17:54:20,2020-05-28 17:54:54,"34,614s",PASSED
+maximizeWindow(),Chrome 81.0.4044.138,,,2020-05-28 17:54:54,2020-05-28 17:54:56,"1,761s",PASSED
+delay(15),Chrome 81.0.4044.138,,,2020-05-28 17:54:56,2020-05-28 17:55:11,"15,082s",PASSED
+"setText(findTestObject(""Rizka/Login - Logout/inputUsername""), username)",Chrome 81.0.4044.138,,,2020-05-28 17:55:11,2020-05-28 17:55:12,"0,979s",PASSED
+"setText(findTestObject(""Rizka/Login - Logout/inputPassword""), password)",Chrome 81.0.4044.138,,,2020-05-28 17:55:12,2020-05-28 17:55:13,"0,685s",PASSED
+"click(findTestObject(""Rizka/Login - Logout/btnEyePass""))",Chrome 81.0.4044.138,,,2020-05-28 17:55:13,2020-05-28 17:55:14,"0,696s",PASSED
+"click(findTestObject(""Rizka/Login - Logout/btnSignIn""))",Chrome 81.0.4044.138,,,2020-05-28 17:55:14,2020-05-28 17:55:14,"0,556s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-28 17:55:14,2020-05-28 17:55:24,"10,007s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-28 17:55:24,2020-05-28 17:55:38,"13,685s",PASSED
+,,,,,,,
+Test Cases/Rizka/Login - Logout,Chrome 81.0.4044.138,,,2020-05-28 17:55:38,2020-05-28 17:57:04,"1m - 25,872s",PASSED
+"openBrowser(""https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"")",Chrome 81.0.4044.138,,,2020-05-28 17:55:38,2020-05-28 17:55:56,"18,257s",PASSED
+maximizeWindow(),Chrome 81.0.4044.138,,,2020-05-28 17:55:56,2020-05-28 17:55:58,"1,380s",PASSED
+delay(15),Chrome 81.0.4044.138,,,2020-05-28 17:55:58,2020-05-28 17:56:13,"15,009s",PASSED
+"setText(findTestObject(""Rizka/Login - Logout/inputUsername""), username)",Chrome 81.0.4044.138,,,2020-05-28 17:56:13,2020-05-28 17:56:13,"0,560s",PASSED
+"setText(findTestObject(""Rizka/Login - Logout/inputPassword""), password)",Chrome 81.0.4044.138,,,2020-05-28 17:56:13,2020-05-28 17:56:14,"0,612s",PASSED
+"click(findTestObject(""Rizka/Login - Logout/btnEyePass""))",Chrome 81.0.4044.138,,,2020-05-28 17:56:14,2020-05-28 17:56:14,"0,452s",PASSED
+"click(findTestObject(""Rizka/Login - Logout/btnSignIn""))",Chrome 81.0.4044.138,,,2020-05-28 17:56:14,2020-05-28 17:56:15,"0,545s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-28 17:56:15,2020-05-28 17:56:25,"10,009s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-28 17:56:25,2020-05-28 17:56:25,"0,001s",PASSED
+"else if (condition == ""logoutPassed"")",Chrome 81.0.4044.138,,,2020-05-28 17:56:25,2020-05-28 17:56:25,"0,001s",PASSED
+else,Chrome 81.0.4044.138,,,2020-05-28 17:56:25,2020-05-28 17:57:04,"38,999s",PASSED
+,,,,,,,
+Test Cases/Rizka/Login - Logout,Chrome 81.0.4044.138,,,2020-05-28 17:57:04,2020-05-28 17:57:55,"50,555s",PASSED
+"openBrowser(""https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"")",Chrome 81.0.4044.138,,,2020-05-28 17:57:04,2020-05-28 17:57:21,"17,191s",PASSED
+maximizeWindow(),Chrome 81.0.4044.138,,,2020-05-28 17:57:21,2020-05-28 17:57:23,"1,372s",PASSED
+delay(15),Chrome 81.0.4044.138,,,2020-05-28 17:57:23,2020-05-28 17:57:38,"15,004s",PASSED
+"setText(findTestObject(""Rizka/Login - Logout/inputUsername""), username)",Chrome 81.0.4044.138,,,2020-05-28 17:57:38,2020-05-28 17:57:38,"0,698s",PASSED
+"setText(findTestObject(""Rizka/Login - Logout/inputPassword""), password)",Chrome 81.0.4044.138,,,2020-05-28 17:57:38,2020-05-28 17:57:39,"0,474s",PASSED
+"click(findTestObject(""Rizka/Login - Logout/btnEyePass""))",Chrome 81.0.4044.138,,,2020-05-28 17:57:39,2020-05-28 17:57:39,"0,407s",PASSED
+"click(findTestObject(""Rizka/Login - Logout/btnSignIn""))",Chrome 81.0.4044.138,,,2020-05-28 17:57:39,2020-05-28 17:57:40,"0,566s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-28 17:57:40,2020-05-28 17:57:50,"10,003s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-28 17:57:50,2020-05-28 17:57:50,"0,001s",PASSED
+"else if (condition == ""logoutPassed"")",Chrome 81.0.4044.138,,,2020-05-28 17:57:50,2020-05-28 17:57:50,"0,000s",PASSED
+else,Chrome 81.0.4044.138,,,2020-05-28 17:57:50,2020-05-28 17:57:55,"4,799s",PASSED
+,,,,,,,
+Test Cases/Rizka/Login - Logout,Chrome 81.0.4044.138,,,2020-05-28 17:57:55,2020-05-28 17:58:48,"53,596s",PASSED
+"openBrowser(""https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"")",Chrome 81.0.4044.138,,,2020-05-28 17:57:55,2020-05-28 17:58:17,"21,988s",PASSED
+maximizeWindow(),Chrome 81.0.4044.138,,,2020-05-28 17:58:17,2020-05-28 17:58:18,"1,154s",PASSED
+delay(15),Chrome 81.0.4044.138,,,2020-05-28 17:58:18,2020-05-28 17:58:33,"15,006s",PASSED
+"setText(findTestObject(""Rizka/Login - Logout/inputUsername""), username)",Chrome 81.0.4044.138,,,2020-05-28 17:58:33,2020-05-28 17:58:33,"0,594s",PASSED
+"setText(findTestObject(""Rizka/Login - Logout/inputPassword""), password)",Chrome 81.0.4044.138,,,2020-05-28 17:58:33,2020-05-28 17:58:34,"0,611s",PASSED
+"click(findTestObject(""Rizka/Login - Logout/btnEyePass""))",Chrome 81.0.4044.138,,,2020-05-28 17:58:34,2020-05-28 17:58:34,"0,432s",PASSED
+"click(findTestObject(""Rizka/Login - Logout/btnSignIn""))",Chrome 81.0.4044.138,,,2020-05-28 17:58:34,2020-05-28 17:58:35,"0,564s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-28 17:58:35,2020-05-28 17:58:45,"10,003s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-28 17:58:45,2020-05-28 17:58:45,"0,001s",PASSED
+"else if (condition == ""logoutPassed"")",Chrome 81.0.4044.138,,,2020-05-28 17:58:45,2020-05-28 17:58:45,"0,000s",PASSED
+else,Chrome 81.0.4044.138,,,2020-05-28 17:58:45,2020-05-28 17:58:48,"3,190s",PASSED
+,,,,,,,
+Test Cases/Rizka/Login - Logout,Chrome 81.0.4044.138,,,2020-05-28 17:58:48,2020-05-28 17:59:48,"59,733s",PASSED
+"openBrowser(""https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"")",Chrome 81.0.4044.138,,,2020-05-28 17:58:48,2020-05-28 17:59:04,"15,963s",PASSED
+maximizeWindow(),Chrome 81.0.4044.138,,,2020-05-28 17:59:04,2020-05-28 17:59:06,"1,327s",PASSED
+delay(15),Chrome 81.0.4044.138,,,2020-05-28 17:59:06,2020-05-28 17:59:21,"15,007s",PASSED
+"setText(findTestObject(""Rizka/Login - Logout/inputUsername""), username)",Chrome 81.0.4044.138,,,2020-05-28 17:59:21,2020-05-28 17:59:22,"0,967s",PASSED
+"setText(findTestObject(""Rizka/Login - Logout/inputPassword""), password)",Chrome 81.0.4044.138,,,2020-05-28 17:59:22,2020-05-28 17:59:22,"0,711s",PASSED
+"click(findTestObject(""Rizka/Login - Logout/btnEyePass""))",Chrome 81.0.4044.138,,,2020-05-28 17:59:22,2020-05-28 17:59:23,"0,427s",PASSED
+"click(findTestObject(""Rizka/Login - Logout/btnSignIn""))",Chrome 81.0.4044.138,,,2020-05-28 17:59:23,2020-05-28 17:59:23,"0,549s",PASSED
+delay(10),Chrome 81.0.4044.138,,,2020-05-28 17:59:23,2020-05-28 17:59:33,"10,003s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-28 17:59:33,2020-05-28 17:59:33,"0,001s",PASSED
+"else if (condition == ""logoutPassed"")",Chrome 81.0.4044.138,,,2020-05-28 17:59:33,2020-05-28 17:59:48,"14,732s",PASSED

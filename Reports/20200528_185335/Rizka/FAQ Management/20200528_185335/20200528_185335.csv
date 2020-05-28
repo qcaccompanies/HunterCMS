@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FAQ Management,Chrome 81.0.4044.138,,,2020-05-28 18:53:56,2020-05-28 18:56:08,"2m - 11,876s",FAILED
+,,,,,,,
+Test Cases/Rizka/FAQ Management/FAQ Management - Delete FAQ,Chrome 81.0.4044.138,,,2020-05-28 18:53:57,2020-05-28 18:56:08,"2m - 10,960s",FAILED
+"callTestCase(findTestCase(""Rizka/MainLogin""), [:], STOP_ON_FAILURE)",Chrome 81.0.4044.138,,,2020-05-28 18:53:58,2020-05-28 18:54:59,"1m - 0,735s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnFAQManagement""))",Chrome 81.0.4044.138,,,2020-05-28 18:54:59,2020-05-28 18:55:06,"7,487s",PASSED
+delay(7),Chrome 81.0.4044.138,,,2020-05-28 18:55:06,2020-05-28 18:55:13,"7,008s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputSearchFAQ""), namaFAQ)",Chrome 81.0.4044.138,,,2020-05-28 18:55:13,2020-05-28 18:55:14,"0,766s",PASSED
+"sendKeys(findTestObject(""Rizka/FAQ Management/inputSearchFAQ""), Keys.chord(ENTER))",Chrome 81.0.4044.138,,,2020-05-28 18:55:14,2020-05-28 18:55:15,"0,706s",PASSED
+delay(7),Chrome 81.0.4044.138,,,2020-05-28 18:55:15,2020-05-28 18:55:22,"7,005s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnSettings""))",Chrome 81.0.4044.138,,,2020-05-28 18:55:22,2020-05-28 18:55:22,"0,498s",PASSED
+"if (condition == ""passed"")",Chrome 81.0.4044.138,,,2020-05-28 18:55:22,2020-05-28 18:55:22,"0,003s",PASSED
+else,Chrome 81.0.4044.138,,,2020-05-28 18:55:22,2020-05-28 18:56:08,"45,476s",FAILED
