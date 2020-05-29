@@ -23,17 +23,25 @@ WebUI.click(findTestObject('Object Repository/Christi/Page_Main/img_Manage Gamif
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/nama reward', [('text') : nama_reward]), 0)
+if (expected == 'pass') {
+    WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/nama reward', [('text') : nama_reward]), 0)
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/label_Delete'))
+    WebUI.click(findTestObject('Christi/Page_Dashboard/label_Delete'))
+
+    WebUI.delay(3)
+
+    WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/label_Apakah Anda yakin ingin menghapus Reward ini'))
+
+    WebUI.click(findTestObject('Christi/Page_Dashboard/button_Hapus'))
+
+    WebUI.delay(3)
+
+    WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/div_Delete Master Reward Success'))
+} else if (expected == 'fail') {
+    WebUI.verifyElementNotPresent(findTestObject('Christi/Page_Dashboard/nama reward', [('text') : nama_reward]), 0)
+}
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/label_Apakah Anda yakin ingin menghapus Reward ini'))
-
-WebUI.click(findTestObject('Christi/Page_Dashboard/button_Hapus'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/div_Delete Master Reward Success'))
+WebUI.closeBrowser()
 

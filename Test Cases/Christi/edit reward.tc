@@ -10,14 +10,14 @@
       <description></description>
       <id>f0537832-8329-40b0-bd26-5570b15f9ee0</id>
       <masked>false</masked>
-      <name>search_reward</name>
+      <name>nama_reward</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>150edd6f-7fdb-46ac-adab-5bdb4109f621</id>
       <masked>false</masked>
-      <name>reward_found</name>
+      <name>edit</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
@@ -31,21 +31,21 @@
       <description></description>
       <id>b8155d33-6be0-4c47-ac45-3c62267b0cde</id>
       <masked>false</masked>
-      <name>img_reward_baru</name>
+      <name>img_upload</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>9a23661b-c546-4d7f-af69-96041e2cbb10</id>
       <masked>false</masked>
-      <name>desc_reward_baru</name>
+      <name>img_reward</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>56884e5f-d5ba-4f4f-a4da-0eac935b9d96</id>
       <masked>false</masked>
-      <name>status</name>
+      <name>desc_reward_baru</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
@@ -53,5 +53,12 @@
       <id>f8048130-2d6a-4d2a-9fc8-89443d17a48d</id>
       <masked>false</masked>
       <name>expected</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1ec99cf8-bb6b-4112-9b6a-f3feabfbde91</id>
+      <masked>false</masked>
+      <name>alert</name>
    </variable>
 </TestCaseEntity>

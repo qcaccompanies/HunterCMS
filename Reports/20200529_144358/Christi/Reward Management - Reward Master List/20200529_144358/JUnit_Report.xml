@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Reward Management - Reward Master List" time="70.935" tests="1" failures="0" errors="0">
+   <testsuite name="Reward Management - Reward Master List" tests="1" failures="0" errors="0" time="70.935" timestamp="2020-05-29 14:44:08" hostname="ASUS - LAPTOP-D0TPACJ1" id="Test Suites/Christi/Reward Management - Reward Master List">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200529_144358\\Christi\\Reward Management - Reward Master List\\20200529_144358"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200529_144358\\Christi\\Reward Management - Reward Master List\\20200529_144358\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-D0TPACJ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.100.227"/>
+         <property name="sessionId" value="5d8dc20516d06df106ce3c57947054c5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Christi/edit reward" time="69.746" classname="Test Cases/Christi/edit reward" status="PASSED">
+         <system-out><![CDATA[2020-05-29 14:44:09 - [TEST_CASE][PASSED] - Test Cases/Christi/edit reward: Test Cases/Christi/edit reward
+
+2020-05-29 14:44:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-29 14:44:11 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-29 14:44:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-29 14:44:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 14:44:13 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-29 14:44:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-29 14:44:18 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-29 14:44:33 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-29 14:44:33 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-29 14:44:41 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-29 14:44:41 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-29 14:44:42 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-29 14:44:42 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-29 14:44:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-29 14:44:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-29 14:44:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-29 14:44:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-29 14:44:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 14:45:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 14:45:00 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Dashboard/img_Jam dinding_picture5")): Object: 'Object Repository/Christi/Page_Dashboard/img_Jam dinding_picture5' is clicked on
+
+2020-05-29 14:45:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/img_Jam dinding_picture5' is clicked on
+
+2020-05-29 14:45:06 - [TEST_STEP][PASSED] - switch (edit.toString()): null
+
+2020-05-29 14:45:06 - [TEST_STEP][PASSED] - case "nama reward":: null
+
+2020-05-29 14:45:06 - [TEST_STEP][PASSED] - if (nama_reward_baru == "erase"): null
+
+2020-05-29 14:45:06 - [TEST_STEP][PASSED] - else: Text 'Topi ' is set on object 'Object Repository/Christi/Page_Dashboard/input_edit _nama_reward'
+
+2020-05-29 14:45:06 - [TEST_STEP][PASSED] - clearText(findTestObject("Christi/Page_Dashboard/input_edit _nama_reward")): Text of object 'Object Repository/Christi/Page_Dashboard/input_edit _nama_reward' is cleared
+
+2020-05-29 14:45:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Christi/Page_Dashboard/input_edit _nama_reward' is cleared
+
+2020-05-29 14:45:07 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Dashboard/input_edit _nama_reward"), nama_reward_baru): Text 'Topi ' is set on object 'Object Repository/Christi/Page_Dashboard/input_edit _nama_reward'
+
+2020-05-29 14:45:08 - [MESSAGE][PASSED] - Text 'Topi ' is set on object 'Object Repository/Christi/Page_Dashboard/input_edit _nama_reward'
+
+2020-05-29 14:45:08 - [TEST_STEP][PASSED] - break: null
+
+2020-05-29 14:45:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 14:45:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 14:45:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan_Edit")): Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan_Edit' is clicked on
+
+2020-05-29 14:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan_Edit' is clicked on
+
+2020-05-29 14:45:12 - [TEST_STEP][PASSED] - if (expected == "pass"): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-29 14:45:12 - [TEST_STEP][PASSED] - if (edit == "nama reward"): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-29 14:45:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/nama reward", ["text":nama_reward_baru]), 0): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-29 14:45:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-29 14:45:17 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-29 14:45:17 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2020-05-29 14:45:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 14:44:08 - [TEST_SUITE][PASSED] - Reward Management - Reward Master List: Test Cases/Christi/edit reward]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

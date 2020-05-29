@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/Christi/delete reward - Iteration 1","testCaseId":"Test Cases/Christi/delete reward","bindedValues":{"expected":"\u0027fail\u0027","nama_reward":"\u0027kcdkfsk\u0027"}}
+{"testCaseName":"Test Cases/Christi/delete reward - Iteration 2","testCaseId":"Test Cases/Christi/delete reward","bindedValues":{"expected":"\u0027pass\u0027","nama_reward":"\u0027Jam dinding\u0027"}}

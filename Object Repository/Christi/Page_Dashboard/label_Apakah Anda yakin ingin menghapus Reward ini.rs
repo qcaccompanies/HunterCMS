@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//label[@name='label17']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[(text() = 'Apakah Anda yakin ingin menghapus Reward ini?' or . = 'Apakah Anda yakin ingin menghapus Reward ini?')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -62,7 +66,7 @@
       <value>widget-id1814</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>

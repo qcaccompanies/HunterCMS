@@ -17,26 +17,84 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Christi/Login'), [('username') : 'admin@mail.com', ('password') : 'Password1#'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/Christi/Page_Main/img_Manage Gamification_picture8'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Christi/Page_1590717297462/Element_1590717331882'))
+WebUI.click(findTestObject('Christi/Page_Dashboard/img_Jam dinding_picture5'))
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/label_Reset Image'))
+switch (edit.toString()) {
+    case 'nama reward':
+        if (nama_reward_baru == 'erase') {
+            WebUI.clearText(findTestObject('Christi/Page_Dashboard/input_edit _nama_reward'))
+        } else {
+            WebUI.clearText(findTestObject('Christi/Page_Dashboard/input_edit _nama_reward'))
 
-not_run: if (img_upload == 'yes') {
-    WebUI.uploadFile(findTestObject('Christi/Page_Dashboard/input_Reward_files'), img_reward)
+            WebUI.setText(findTestObject('Christi/Page_Dashboard/input_edit _nama_reward'), nama_reward_baru)
+        }
+        
+        break
+    case 'img upload':
+        if (img_upload == 'erase') {
+            WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/label_Reset Image'))
+        } else if (img_upload == 'yes') {
+            WebUI.delay(3)
 
-    if (alert == 'file to big') {
-        WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB'), 
+            WebUI.uploadFile(findTestObject('Christi/Page_Dashboard/input_Reward_files'), img_reward)
+
+            if (alert == 'file to big') {
+                WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB'), 
+                    0)
+            } else if (alert == 'wrong file extension') {
+                WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng'), 
+                    0)
+            }
+        }
+        
+        break
+    case 'decs reward':
+        if (desc_reward_baru == 'erase') {
+            WebUI.clearText(findTestObject('Christi/Page_Dashboard/textarea_edit_deskripsi_reward'))
+        } else {
+            WebUI.setText(findTestObject('Christi/Page_Dashboard/textarea_edit_deskripsi_reward'), desc_reward_baru)
+        }
+        
+        break
+}
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Christi/Page_Dashboard/span_Simpan'))
+
+if (expected == 'pass') {
+    if (edit == 'nama reward') {
+        WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/nama reward', [('text') : nama_reward_baru]), 
             0)
-    } else if (alert == 'wrong file extension') {
-        WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng'), 0)
+    } else {
+        WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/nama reward', [('text') : nama_reward]), 0)
+    }
+} else if (expected == 'fail') {
+    switch (alert.toString()) {
+        case 'nama kosong':
+            WebUI.delay(3)
+
+            WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/p_Nama tidak boleh kosong'), 3)
+
+            WebUI.delay(3)
+
+            break
+        case 'deskripsi kosong':
+            WebUI.delay(3)
+
+            WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/p_Deskripsi tidak boleh kosong'), 3)
+
+            WebUI.delay(3)
+
+            break
     }
 }
 
-not_run: WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/button_Simpan_Edit'))
-
-not_run: WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/close_edit_reward dialog'))
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

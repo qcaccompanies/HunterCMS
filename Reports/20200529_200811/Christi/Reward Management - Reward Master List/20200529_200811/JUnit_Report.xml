@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Reward Management - Reward Master List" time="385.024" tests="6" failures="0" errors="0">
+   <testsuite name="Reward Management - Reward Master List" tests="6" failures="0" errors="0" time="385.024" timestamp="2020-05-29 20:08:30" hostname="ASUS - LAPTOP-D0TPACJ1" id="Test Suites/Christi/Reward Management - Reward Master List">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200529_200811\\Christi\\Reward Management - Reward Master List\\20200529_200811"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200529_200811\\Christi\\Reward Management - Reward Master List\\20200529_200811\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-D0TPACJ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.100.227"/>
+         <property name="sessionId" value="21dc828984320da2335f65aeac6a0b41"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Christi/tambah reward" time="66.838" classname="Test Cases/Christi/tambah reward" status="PASSED">
+         <system-out><![CDATA[2020-05-29 20:08:31 - [TEST_CASE][PASSED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward
+
+2020-05-29 20:08:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-29 20:08:33 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-29 20:08:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-29 20:08:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 20:08:34 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-29 20:08:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-29 20:08:40 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-29 20:08:50 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-29 20:08:50 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-29 20:08:54 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-29 20:08:54 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-29 20:08:56 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-29 20:08:56 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-29 20:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-29 20:08:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-29 20:08:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:09:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:09:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-29 20:09:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-29 20:09:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:09:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-29 20:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-29 20:09:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:09:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:09:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text 'Jam ' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-29 20:09:19 - [MESSAGE][PASSED] - Text 'Jam ' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-29 20:09:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:09:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:09:22 - [TEST_STEP][PASSED] - if (img_upload == "yes"): null
+
+2020-05-29 20:09:22 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Christi/Page_Dashboard/input_Reward_files"), img_reward): File 'C:\Users\ASUS\git\HunterCMS\image\jam-dinding-kartun-png-1.png' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-29 20:09:22 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\HunterCMS\image\jam-dinding-kartun-png-1.png' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-29 20:09:22 - [TEST_STEP][PASSED] - if (alert == "file to big"): null
+
+2020-05-29 20:09:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:09:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:09:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward): Text '-' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-29 20:09:29 - [MESSAGE][PASSED] - Text '-' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-29 20:09:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:09:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:09:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan")): Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-29 20:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-29 20:09:33 - [TEST_STEP][PASSED] - if (expected == "pass"): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-29 20:09:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/nama reward", ["text":nama_reward]), 0): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-29 20:09:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-29 20:09:37 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-29 20:09:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-29 20:09:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/tambah reward" time="89.539" classname="Test Cases/Christi/tambah reward" status="PASSED">
+         <system-out><![CDATA[2020-05-29 20:09:38 - [TEST_CASE][PASSED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward
+
+2020-05-29 20:09:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-29 20:09:38 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-29 20:09:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-29 20:09:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 20:09:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-29 20:09:41 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-29 20:10:21 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-29 20:10:21 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-29 20:10:31 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-29 20:10:31 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-29 20:10:31 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-29 20:10:31 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-29 20:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-29 20:10:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-29 20:10:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:10:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:10:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-29 20:10:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-29 20:10:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:10:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:10:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-29 20:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-29 20:10:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:10:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:10:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text 'Tumbler' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-29 20:10:52 - [MESSAGE][PASSED] - Text 'Tumbler' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-29 20:10:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:10:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:10:55 - [TEST_STEP][PASSED] - if (img_upload == "yes"): null
+
+2020-05-29 20:10:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:10:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:10:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward): Text '600 mL' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-29 20:10:58 - [MESSAGE][PASSED] - Text '600 mL' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-29 20:10:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:11:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:11:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan")): Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-29 20:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-29 20:11:02 - [TEST_STEP][PASSED] - if (expected == "pass"): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-29 20:11:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/nama reward", ["text":nama_reward]), 0): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-29 20:11:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-29 20:11:07 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-29 20:11:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-29 20:11:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/tambah reward" time="49.493" classname="Test Cases/Christi/tambah reward" status="PASSED">
+         <system-out><![CDATA[2020-05-29 20:11:08 - [TEST_CASE][PASSED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward
+
+2020-05-29 20:11:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-29 20:11:08 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-29 20:11:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-29 20:11:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 20:11:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-29 20:11:12 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-29 20:11:22 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-29 20:11:22 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-29 20:11:24 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-29 20:11:24 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-29 20:11:26 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-29 20:11:26 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-29 20:11:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-29 20:11:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-29 20:11:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:11:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:11:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-29 20:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-29 20:11:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:11:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:11:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-29 20:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-29 20:11:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:11:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:11:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text '' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-29 20:11:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-29 20:11:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:11:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:11:48 - [TEST_STEP][PASSED] - if (img_upload == "yes"): null
+
+2020-05-29 20:11:48 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Christi/Page_Dashboard/input_Reward_files"), img_reward): File 'C:\Users\ASUS\git\HunterCMS\image\Kaos-Polos.jpg' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-29 20:11:49 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\HunterCMS\image\Kaos-Polos.jpg' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-29 20:11:49 - [TEST_STEP][PASSED] - if (alert == "file to big"): null
+
+2020-05-29 20:11:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:11:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:11:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward): Text 'test' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-29 20:11:52 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-29 20:11:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:11:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:11:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan")): Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-29 20:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-29 20:11:56 - [TEST_STEP][PASSED] - if (expected == "pass"): null
+
+2020-05-29 20:11:56 - [TEST_STEP][PASSED] - else if (expected == "fail"): null
+
+2020-05-29 20:11:56 - [TEST_STEP][PASSED] - switch (alert.toString()): null
+
+2020-05-29 20:11:56 - [TEST_STEP][PASSED] - case "nama kosong":: null
+
+2020-05-29 20:11:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/p_Nama tidak boleh kosong"), 3): Object 'Object Repository/Christi/Page_Dashboard/p_Nama tidak boleh kosong' is present
+
+2020-05-29 20:11:56 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/p_Nama tidak boleh kosong' is present
+
+2020-05-29 20:11:56 - [TEST_STEP][PASSED] - break: null
+
+2020-05-29 20:11:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-29 20:11:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/tambah reward" time="49.858" classname="Test Cases/Christi/tambah reward" status="PASSED">
+         <system-out><![CDATA[2020-05-29 20:11:58 - [TEST_CASE][PASSED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward
+
+2020-05-29 20:11:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-29 20:11:58 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-29 20:11:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-29 20:11:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 20:12:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-29 20:12:01 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-29 20:12:10 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-29 20:12:10 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-29 20:12:14 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-29 20:12:14 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-29 20:12:15 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-29 20:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-29 20:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-29 20:12:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-29 20:12:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:12:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:12:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-29 20:12:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-29 20:12:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:12:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:12:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-29 20:12:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-29 20:12:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:12:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:12:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text 'Topi ' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-29 20:12:35 - [MESSAGE][PASSED] - Text 'Topi ' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-29 20:12:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:12:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:12:38 - [TEST_STEP][PASSED] - if (img_upload == "yes"): null
+
+2020-05-29 20:12:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:12:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:12:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward): Text '' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-29 20:12:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-29 20:12:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:12:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:12:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan")): Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-29 20:12:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-29 20:12:46 - [TEST_STEP][PASSED] - if (expected == "pass"): null
+
+2020-05-29 20:12:46 - [TEST_STEP][PASSED] - else if (expected == "fail"): null
+
+2020-05-29 20:12:46 - [TEST_STEP][PASSED] - switch (alert.toString()): null
+
+2020-05-29 20:12:46 - [TEST_STEP][PASSED] - Default: null
+
+2020-05-29 20:12:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/button_Simpan"), 3): Object 'Object Repository/Christi/Page_Dashboard/button_Simpan' is present
+
+2020-05-29 20:12:46 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/button_Simpan' is present
+
+2020-05-29 20:12:46 - [TEST_STEP][PASSED] - break: null
+
+2020-05-29 20:12:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-29 20:12:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/tambah reward" time="60.658" classname="Test Cases/Christi/tambah reward" status="PASSED">
+         <system-out><![CDATA[2020-05-29 20:12:48 - [TEST_CASE][PASSED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward
+
+2020-05-29 20:12:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-29 20:12:48 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-29 20:12:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-29 20:12:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 20:12:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-29 20:12:50 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-29 20:13:02 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-29 20:13:02 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-29 20:13:07 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-29 20:13:07 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-29 20:13:08 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-29 20:13:08 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-29 20:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-29 20:13:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-29 20:13:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:13:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:13:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-29 20:13:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-29 20:13:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:13:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:13:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-29 20:13:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-29 20:13:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:13:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:13:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text 'Kaos' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-29 20:13:31 - [MESSAGE][PASSED] - Text 'Kaos' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-29 20:13:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:13:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:13:34 - [TEST_STEP][PASSED] - if (img_upload == "yes"): Object 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' is present
+
+2020-05-29 20:13:34 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Christi/Page_Dashboard/input_Reward_files"), img_reward): File 'C:\Users\ASUS\git\HunterCMS\image\Cover Sales Basic Training.png' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-29 20:13:34 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\HunterCMS\image\Cover Sales Basic Training.png' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-29 20:13:34 - [TEST_STEP][PASSED] - if (alert == "file to big"): Object 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' is present
+
+2020-05-29 20:13:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB"), 0): Object 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' is present
+
+2020-05-29 20:13:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-29 20:13:35 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' is present
+
+2020-05-29 20:13:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:13:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:13:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward): Text 'S,M,L,XL' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-29 20:13:39 - [MESSAGE][PASSED] - Text 'S,M,L,XL' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-29 20:13:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:13:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:13:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan")): Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-29 20:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-29 20:13:42 - [TEST_STEP][PASSED] - if (expected == "pass"): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-29 20:13:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/nama reward", ["text":nama_reward]), 0): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-29 20:13:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-29 20:13:47 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-29 20:13:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-29 20:13:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/tambah reward" time="66.795" classname="Test Cases/Christi/tambah reward" status="PASSED">
+         <system-out><![CDATA[2020-05-29 20:13:48 - [TEST_CASE][PASSED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward
+
+2020-05-29 20:13:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-29 20:13:48 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-29 20:13:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-29 20:13:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 20:13:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-29 20:13:51 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-29 20:14:17 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-29 20:14:17 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-29 20:14:18 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-29 20:14:18 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-29 20:14:18 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-29 20:14:18 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-29 20:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-29 20:14:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-29 20:14:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:14:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-29 20:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-29 20:14:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:14:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:14:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-29 20:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-29 20:14:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:14:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:14:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text 'Liburan Keluaraga' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-29 20:14:37 - [MESSAGE][PASSED] - Text 'Liburan Keluaraga' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-29 20:14:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:14:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:14:40 - [TEST_STEP][PASSED] - if (img_upload == "yes"): Object 'Object Repository/Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng' is present
+
+2020-05-29 20:14:40 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Christi/Page_Dashboard/input_Reward_files"), img_reward): File 'C:\Users\ASUS\git\HunterCMS\image\01. What Business Are we in (1).pdf' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-29 20:14:40 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\HunterCMS\image\01. What Business Are we in (1).pdf' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-29 20:14:40 - [TEST_STEP][PASSED] - if (alert == "file to big"): null
+
+2020-05-29 20:14:40 - [TEST_STEP][PASSED] - else if (alert == "wrong file extension"): Object 'Object Repository/Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng' is present
+
+2020-05-29 20:14:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng"), 0): Object 'Object Repository/Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng' is present
+
+2020-05-29 20:14:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-29 20:14:41 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng' is present
+
+2020-05-29 20:14:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:14:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:14:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward): Text 'paket liburan ke bali selama 1 minggu (sudah termasuk tiket)' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-29 20:14:45 - [MESSAGE][PASSED] - Text 'paket liburan ke bali selama 1 minggu (sudah termasuk tiket)' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-29 20:14:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 20:14:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 20:14:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan")): Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-29 20:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-29 20:14:49 - [TEST_STEP][PASSED] - if (expected == "pass"): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-29 20:14:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/nama reward", ["text":nama_reward]), 0): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-29 20:14:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-29 20:14:54 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-29 20:14:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-29 20:14:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 20:08:30 - [TEST_SUITE][PASSED] - Reward Management - Reward Master List: Test Cases/Christi/tambah reward]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

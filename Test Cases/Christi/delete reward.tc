@@ -6,10 +6,17 @@
    <comment></comment>
    <testCaseGuid>9d234163-0809-45bd-808c-3164aab8f7f0</testCaseGuid>
    <variable>
-      <defaultValue>'Kaos acc'</defaultValue>
+      <defaultValue>'Jam'</defaultValue>
       <description></description>
       <id>f24ed798-0d68-47c9-8d94-6b3242f2af75</id>
       <masked>false</masked>
       <name>nama_reward</name>
+   </variable>
+   <variable>
+      <defaultValue>'pass'</defaultValue>
+      <description></description>
+      <id>70a75432-3cfe-4d23-90ae-b0aa73a2b869</id>
+      <masked>false</masked>
+      <name>expected</name>
    </variable>
 </TestCaseEntity>
