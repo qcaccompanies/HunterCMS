@@ -15,6 +15,13 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
+      <id>474b6ffa-70dd-46c5-9ec8-37cd3c4bf9af</id>
+      <masked>false</masked>
+      <name>img_upload</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
       <id>1771764a-fbe0-4489-8427-da4d7882b483</id>
       <masked>false</masked>
       <name>img_reward</name>
@@ -25,5 +32,19 @@
       <id>405bcef0-e37f-44b5-990a-0b149253d607</id>
       <masked>false</masked>
       <name>desc_reward</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e1d9cffc-be08-4761-bf93-8c771306a56e</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7527c2ce-616a-488e-b353-5400d1f92e03</id>
+      <masked>false</masked>
+      <name>alert</name>
    </variable>
 </TestCaseEntity>

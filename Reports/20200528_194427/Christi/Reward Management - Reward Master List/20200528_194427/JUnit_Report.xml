@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Reward Management - Reward Master List" time="454.768" tests="6" failures="1" errors="0">
+   <testsuite name="Reward Management - Reward Master List" tests="6" failures="1" errors="0" time="454.768" timestamp="2020-05-28 19:44:42" hostname="ASUS - LAPTOP-D0TPACJ1" id="Test Suites/Christi/Reward Management - Reward Master List">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200528_194427\\Christi\\Reward Management - Reward Master List\\20200528_194427"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200528_194427\\Christi\\Reward Management - Reward Master List\\20200528_194427\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200528_194427\\Christi\\Reward Management - Reward Master List\\20200528_194427\\1590670254669.png"/>
+         <property name="hostName" value="ASUS - LAPTOP-D0TPACJ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.100.227"/>
+         <property name="sessionId" value="875fd007ec0c6c7d1a0132c39490fb25"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Christi/tambah reward" time="82.287" classname="Test Cases/Christi/tambah reward" status="PASSED">
+         <system-out><![CDATA[2020-05-28 19:44:43 - [TEST_CASE][PASSED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward
+
+2020-05-28 19:44:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 19:44:44 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-28 19:44:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-28 19:44:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 19:44:45 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-28 19:44:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-28 19:44:51 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 19:45:17 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 19:45:17 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 19:45:22 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 19:45:22 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 19:45:23 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 19:45:23 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 19:45:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 19:45:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 19:45:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:45:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:45:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 19:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 19:45:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:45:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:45:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 19:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 19:45:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:45:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:45:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text 'Jam dinding' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 19:45:53 - [MESSAGE][PASSED] - Text 'Jam dinding' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 19:45:53 - [TEST_STEP][PASSED] - if (img_upload == "yes"): null
+
+2020-05-28 19:45:53 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Christi/Page_Dashboard/input_Reward_files"), img_reward): File 'C:\Users\ASUS\git\HunterCMS\image\jam-dinding-kartun-png-1.png' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-28 19:45:53 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\HunterCMS\image\jam-dinding-kartun-png-1.png' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-28 19:45:53 - [TEST_STEP][PASSED] - if (alert == "img to big"): null
+
+2020-05-28 19:45:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:45:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:45:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward): Text '-' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 19:45:57 - [MESSAGE][PASSED] - Text '-' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 19:45:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:46:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:46:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan")): Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 19:46:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 19:46:00 - [TEST_STEP][PASSED] - if (expected == "pass"): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 19:46:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/nama reward", ["text":nama_reward]), 0): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 19:46:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-28 19:46:04 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 19:46:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-28 19:46:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/tambah reward" time="85.296" classname="Test Cases/Christi/tambah reward" status="PASSED">
+         <system-out><![CDATA[2020-05-28 19:46:06 - [TEST_CASE][PASSED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward
+
+2020-05-28 19:46:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 19:46:06 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-28 19:46:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-28 19:46:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 19:46:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-28 19:46:09 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 19:46:32 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 19:46:32 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 19:46:41 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 19:46:41 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 19:46:41 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 19:46:41 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 19:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 19:46:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 19:46:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:46:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:46:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 19:47:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 19:47:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:47:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:47:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 19:47:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 19:47:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:47:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:47:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text 'Tumbler' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 19:47:18 - [MESSAGE][PASSED] - Text 'Tumbler' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 19:47:18 - [TEST_STEP][PASSED] - if (img_upload == "yes"): null
+
+2020-05-28 19:47:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:47:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:47:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward): Text '600 mL' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 19:47:22 - [MESSAGE][PASSED] - Text '600 mL' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 19:47:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:47:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:47:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan")): Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 19:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 19:47:25 - [TEST_STEP][PASSED] - if (expected == "pass"): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 19:47:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/nama reward", ["text":nama_reward]), 0): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 19:47:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-28 19:47:30 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 19:47:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-28 19:47:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/tambah reward" time="68.567" classname="Test Cases/Christi/tambah reward" status="PASSED">
+         <system-out><![CDATA[2020-05-28 19:47:31 - [TEST_CASE][PASSED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward
+
+2020-05-28 19:47:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 19:47:31 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-28 19:47:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-28 19:47:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 19:47:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-28 19:47:34 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 19:48:05 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 19:48:05 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 19:48:11 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 19:48:11 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 19:48:11 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 19:48:11 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 19:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 19:48:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 19:48:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:48:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:48:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 19:48:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 19:48:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:48:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:48:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 19:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 19:48:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:48:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:48:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text '' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 19:48:31 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 19:48:31 - [TEST_STEP][PASSED] - if (img_upload == "yes"): null
+
+2020-05-28 19:48:31 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Christi/Page_Dashboard/input_Reward_files"), img_reward): File 'C:\Users\ASUS\git\HunterCMS\image\127-1277195_bottle-tumbler-png-transparent-png.png' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-28 19:48:31 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\HunterCMS\image\127-1277195_bottle-tumbler-png-transparent-png.png' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-28 19:48:31 - [TEST_STEP][PASSED] - if (alert == "img to big"): null
+
+2020-05-28 19:48:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:48:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:48:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward): Text 'test' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 19:48:35 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 19:48:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:48:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:48:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan")): Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 19:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 19:48:38 - [TEST_STEP][PASSED] - if (expected == "pass"): null
+
+2020-05-28 19:48:38 - [TEST_STEP][PASSED] - else if (expected == "fail"): null
+
+2020-05-28 19:48:38 - [TEST_STEP][PASSED] - switch (alert.toString()): null
+
+2020-05-28 19:48:38 - [TEST_STEP][PASSED] - case "nama kosong":: null
+
+2020-05-28 19:48:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/p_Nama tidak boleh kosong"), 3): Object 'Object Repository/Christi/Page_Dashboard/p_Nama tidak boleh kosong' is present
+
+2020-05-28 19:48:39 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/p_Nama tidak boleh kosong' is present
+
+2020-05-28 19:48:39 - [TEST_STEP][PASSED] - break: null
+
+2020-05-28 19:48:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-28 19:48:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/tambah reward" time="73.797" classname="Test Cases/Christi/tambah reward" status="PASSED">
+         <system-out><![CDATA[2020-05-28 19:48:40 - [TEST_CASE][PASSED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward
+
+2020-05-28 19:48:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 19:48:40 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-28 19:48:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-28 19:48:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 19:48:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-28 19:48:43 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 19:49:06 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 19:49:06 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 19:49:11 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 19:49:11 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 19:49:13 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 19:49:13 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 19:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 19:49:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 19:49:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:49:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:49:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 19:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 19:49:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:49:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:49:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 19:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 19:49:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:49:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:49:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text 'Topi ' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 19:49:44 - [MESSAGE][PASSED] - Text 'Topi ' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 19:49:44 - [TEST_STEP][PASSED] - if (img_upload == "yes"): null
+
+2020-05-28 19:49:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:49:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:49:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward): Text '' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 19:49:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 19:49:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:49:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:49:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan")): Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 19:49:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 19:49:51 - [TEST_STEP][PASSED] - if (expected == "pass"): null
+
+2020-05-28 19:49:51 - [TEST_STEP][PASSED] - else if (expected == "fail"): null
+
+2020-05-28 19:49:51 - [TEST_STEP][PASSED] - switch (alert.toString()): null
+
+2020-05-28 19:49:51 - [TEST_STEP][PASSED] - Default: null
+
+2020-05-28 19:49:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/button_Simpan"), 3): Object 'Object Repository/Christi/Page_Dashboard/button_Simpan' is present
+
+2020-05-28 19:49:53 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/button_Simpan' is present
+
+2020-05-28 19:49:53 - [TEST_STEP][PASSED] - break: null
+
+2020-05-28 19:49:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-28 19:49:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/tambah reward" time="61.113" classname="Test Cases/Christi/tambah reward" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Christi/tambah reward FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file '‪C:\Users\ASUS\git\HunterCMS\image\Aristotles.jpg' to object 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2945)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$3.call(Unknown Source)
+	at tambah reward.run(tambah reward:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590669867384.run(TempTestSuite1590669867384.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: 
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-D0TPACJ1', ip: '192.168.100.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54484}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e3754badfa15fb8106cdd507b6e3e11c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-28 19:49:54 - [TEST_CASE][FAILED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file '‪C:\Users\ASUS\git\HunterCMS\image\Aristotles.jpg' to object 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2945)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$3.call(Unknown Source)
+	at tambah reward.run(tambah reward:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590669867384.run(TempTestSuite1590669867384.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: 
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-D0TPACJ1', ip: '192.168.100.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54484}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e3754badfa15fb8106cdd507b6e3e11c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-28 19:49:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 19:49:54 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-28 19:49:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-28 19:49:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 19:49:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-28 19:49:57 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 19:50:19 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 19:50:19 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 19:50:26 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 19:50:26 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 19:50:27 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 19:50:27 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 19:50:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 19:50:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 19:50:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:50:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:50:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 19:50:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 19:50:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:50:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:50:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 19:50:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 19:50:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:50:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:50:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text 'Kaos' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 19:50:54 - [MESSAGE][PASSED] - Text 'Kaos' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 19:50:54 - [TEST_STEP][FAILED] - if (img_upload == "yes"): Unable to upload file '‪C:\Users\ASUS\git\HunterCMS\image\Aristotles.jpg' to object 'Object Repository/Christi/Page_Dashboard/input_Reward_files' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file '‪C:\Users\ASUS\git\HunterCMS\image\Aristotles.jpg' to object 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2945)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$3.call(Unknown Source)
+	at tambah reward.run(tambah reward:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590669867384.run(TempTestSuite1590669867384.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: 
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-D0TPACJ1', ip: '192.168.100.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54484}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e3754badfa15fb8106cdd507b6e3e11c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2945)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$3.call(Unknown Source)
+	at Script1590645476403.run(Script1590645476403.groovy:34)
+	... 13 more
+)
+
+2020-05-28 19:50:54 - [TEST_STEP][FAILED] - uploadFile(findTestObject("Christi/Page_Dashboard/input_Reward_files"), img_reward): Unable to upload file '‪C:\Users\ASUS\git\HunterCMS\image\Aristotles.jpg' to object 'Object Repository/Christi/Page_Dashboard/input_Reward_files' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file '‪C:\Users\ASUS\git\HunterCMS\image\Aristotles.jpg' to object 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2945)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$3.call(Unknown Source)
+	at tambah reward.run(tambah reward:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590669867384.run(TempTestSuite1590669867384.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: 
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-D0TPACJ1', ip: '192.168.100.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54484}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e3754badfa15fb8106cdd507b6e3e11c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2945)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$3.call(Unknown Source)
+	at Script1590645476403.run(Script1590645476403.groovy:34)
+	... 13 more
+)
+
+2020-05-28 19:50:55 - [MESSAGE][FAILED] - Unable to upload file '‪C:\Users\ASUS\git\HunterCMS\image\Aristotles.jpg' to object 'Object Repository/Christi/Page_Dashboard/input_Reward_files' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file '‪C:\Users\ASUS\git\HunterCMS\image\Aristotles.jpg' to object 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2945)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$3.call(Unknown Source)
+	at tambah reward.run(tambah reward:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590669867384.run(TempTestSuite1590669867384.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: 
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-D0TPACJ1', ip: '192.168.100.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54484}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e3754badfa15fb8106cdd507b6e3e11c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2945)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$3.call(Unknown Source)
+	at Script1590645476403.run(Script1590645476403.groovy:34)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200528_194427\\Christi\\Reward Management - Reward Master List\\20200528_194427\\1590670254669.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-28 19:49:54 - [TEST_CASE][FAILED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file '‪C:\Users\ASUS\git\HunterCMS\image\Aristotles.jpg' to object 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2945)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$3.call(Unknown Source)
+	at tambah reward.run(tambah reward:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590669867384.run(TempTestSuite1590669867384.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: 
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-D0TPACJ1', ip: '192.168.100.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54484}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e3754badfa15fb8106cdd507b6e3e11c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/tambah reward" time="81.659" classname="Test Cases/Christi/tambah reward" status="PASSED">
+         <system-out><![CDATA[2020-05-28 19:50:55 - [TEST_CASE][PASSED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward
+
+2020-05-28 19:50:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 19:50:55 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-28 19:50:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-28 19:50:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-28 19:50:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 19:50:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-28 19:50:59 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 19:51:26 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 19:51:26 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 19:51:35 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 19:51:35 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 19:51:35 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 19:51:35 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 19:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 19:51:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 19:51:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:51:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:51:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 19:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 19:51:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:51:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:51:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 19:51:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 19:51:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:52:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:52:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text 'Liburan Keluaraga' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 19:52:03 - [MESSAGE][PASSED] - Text 'Liburan Keluaraga' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 19:52:03 - [TEST_STEP][PASSED] - if (img_upload == "yes"): Object 'Object Repository/Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng' is present
+
+2020-05-28 19:52:03 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Christi/Page_Dashboard/input_Reward_files"), img_reward): File 'C:\Users\ASUS\git\HunterCMS\image\01. What Business Are we in (1).pdf' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-28 19:52:03 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\HunterCMS\image\01. What Business Are we in (1).pdf' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-28 19:52:03 - [TEST_STEP][PASSED] - if (alert == "img to big"): null
+
+2020-05-28 19:52:03 - [TEST_STEP][PASSED] - else if (alert == "wrong file extension"): Object 'Object Repository/Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng' is present
+
+2020-05-28 19:52:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng"), 0): Object 'Object Repository/Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng' is present
+
+2020-05-28 19:52:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-28 19:52:04 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng' is present
+
+2020-05-28 19:52:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:52:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:52:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward): Text 'paket liburan ke bali selama 1 minggu (sudah termasuk tiket)' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 19:52:08 - [MESSAGE][PASSED] - Text 'paket liburan ke bali selama 1 minggu (sudah termasuk tiket)' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 19:52:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 19:52:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 19:52:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan")): Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 19:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 19:52:11 - [TEST_STEP][PASSED] - if (expected == "pass"): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 19:52:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/nama reward", ["text":nama_reward]), 0): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 19:52:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-28 19:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 19:52:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-28 19:52:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-28 19:44:42 - [TEST_SUITE][FAILED] - Reward Management - Reward Master List: Test Cases/Christi/tambah reward FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file '‪C:\Users\ASUS\git\HunterCMS\image\Aristotles.jpg' to object 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2945)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$3.call(Unknown Source)
+	at tambah reward.run(tambah reward:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590669867384.run(TempTestSuite1590669867384.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: 
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-D0TPACJ1', ip: '192.168.100.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54484}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e3754badfa15fb8106cdd507b6e3e11c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-28 19:44:42 - [TEST_SUITE][FAILED] - Reward Management - Reward Master List: Test Cases/Christi/tambah reward FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file '‪C:\Users\ASUS\git\HunterCMS\image\Aristotles.jpg' to object 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2945)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$3.call(Unknown Source)
+	at tambah reward.run(tambah reward:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590669867384.run(TempTestSuite1590669867384.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument: 
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-D0TPACJ1', ip: '192.168.100.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54484}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e3754badfa15fb8106cdd507b6e3e11c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

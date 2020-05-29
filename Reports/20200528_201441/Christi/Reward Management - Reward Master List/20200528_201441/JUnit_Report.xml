@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Reward Management - Reward Master List" time="553.822" tests="6" failures="1" errors="0">
+   <testsuite name="Reward Management - Reward Master List" tests="6" failures="1" errors="0" time="553.822" timestamp="2020-05-28 20:14:57" hostname="ASUS - LAPTOP-D0TPACJ1" id="Test Suites/Christi/Reward Management - Reward Master List">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200528_201441\\Christi\\Reward Management - Reward Master List\\20200528_201441"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200528_201441\\Christi\\Reward Management - Reward Master List\\20200528_201441\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200528_201441\\Christi\\Reward Management - Reward Master List\\20200528_201441\\1590672171400.png, C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200528_201441\\Christi\\Reward Management - Reward Master List\\20200528_201441\\1590672171769.png"/>
+         <property name="hostName" value="ASUS - LAPTOP-D0TPACJ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.100.227"/>
+         <property name="sessionId" value="26e8a76cd2bc1268660be7b59be2bf9f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Christi/tambah reward" time="110.881" classname="Test Cases/Christi/tambah reward" status="PASSED">
+         <system-out><![CDATA[2020-05-28 20:14:57 - [TEST_CASE][PASSED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward
+
+2020-05-28 20:14:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 20:14:59 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-28 20:14:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-28 20:15:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 20:15:00 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-28 20:15:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-28 20:15:05 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 20:15:46 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 20:15:46 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 20:15:53 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 20:15:53 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 20:15:54 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 20:15:54 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 20:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 20:15:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 20:15:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:15:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:15:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 20:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 20:16:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:16:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:16:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 20:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 20:16:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:16:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:16:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text 'Jam dinding' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 20:16:30 - [MESSAGE][PASSED] - Text 'Jam dinding' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 20:16:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:16:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:16:33 - [TEST_STEP][PASSED] - if (img_upload == "yes"): null
+
+2020-05-28 20:16:33 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Christi/Page_Dashboard/input_Reward_files"), img_reward): File 'C:\Users\ASUS\git\HunterCMS\image\jam-dinding-kartun-png-1.png' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-28 20:16:34 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\HunterCMS\image\jam-dinding-kartun-png-1.png' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-28 20:16:34 - [TEST_STEP][PASSED] - if (alert == "file to big"): null
+
+2020-05-28 20:16:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:16:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:16:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward): Text '-' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 20:16:37 - [MESSAGE][PASSED] - Text '-' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 20:16:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:16:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:16:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan")): Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 20:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 20:16:42 - [TEST_STEP][PASSED] - if (expected == "pass"): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 20:16:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/nama reward", ["text":nama_reward]), 0): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 20:16:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-28 20:16:47 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 20:16:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-28 20:16:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/tambah reward" time="98.434" classname="Test Cases/Christi/tambah reward" status="PASSED">
+         <system-out><![CDATA[2020-05-28 20:16:48 - [TEST_CASE][PASSED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward
+
+2020-05-28 20:16:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 20:16:48 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-28 20:16:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-28 20:16:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 20:16:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-28 20:16:52 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 20:17:27 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 20:17:27 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 20:17:34 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 20:17:34 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 20:17:34 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 20:17:34 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 20:17:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 20:17:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 20:17:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:17:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:17:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 20:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 20:17:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:18:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:18:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 20:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 20:18:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:18:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:18:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text 'Tumbler' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 20:18:12 - [MESSAGE][PASSED] - Text 'Tumbler' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 20:18:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:18:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:18:15 - [TEST_STEP][PASSED] - if (img_upload == "yes"): null
+
+2020-05-28 20:18:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:18:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:18:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward): Text '600 mL' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 20:18:18 - [MESSAGE][PASSED] - Text '600 mL' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 20:18:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:18:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:18:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan")): Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 20:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 20:18:22 - [TEST_STEP][PASSED] - if (expected == "pass"): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 20:18:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/nama reward", ["text":nama_reward]), 0): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 20:18:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-28 20:18:26 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 20:18:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-28 20:18:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/tambah reward" time="79.326" classname="Test Cases/Christi/tambah reward" status="PASSED">
+         <system-out><![CDATA[2020-05-28 20:18:27 - [TEST_CASE][PASSED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward
+
+2020-05-28 20:18:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 20:18:27 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-28 20:18:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-28 20:18:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 20:18:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-28 20:18:30 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 20:18:53 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 20:18:53 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 20:19:01 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 20:19:01 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 20:19:02 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 20:19:02 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 20:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 20:19:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 20:19:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:19:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:19:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 20:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 20:19:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:19:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:19:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 20:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 20:19:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:19:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:19:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text '' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 20:19:34 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 20:19:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:19:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:19:37 - [TEST_STEP][PASSED] - if (img_upload == "yes"): null
+
+2020-05-28 20:19:37 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Christi/Page_Dashboard/input_Reward_files"), img_reward): File 'C:\Users\ASUS\git\HunterCMS\image\127-1277195_bottle-tumbler-png-transparent-png.png' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-28 20:19:38 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\HunterCMS\image\127-1277195_bottle-tumbler-png-transparent-png.png' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-28 20:19:38 - [TEST_STEP][PASSED] - if (alert == "file to big"): null
+
+2020-05-28 20:19:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:19:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:19:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward): Text 'test' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 20:19:41 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 20:19:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:19:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:19:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan")): Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 20:19:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 20:19:45 - [TEST_STEP][PASSED] - if (expected == "pass"): null
+
+2020-05-28 20:19:45 - [TEST_STEP][PASSED] - else if (expected == "fail"): null
+
+2020-05-28 20:19:45 - [TEST_STEP][PASSED] - switch (alert.toString()): null
+
+2020-05-28 20:19:45 - [TEST_STEP][PASSED] - case "nama kosong":: null
+
+2020-05-28 20:19:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/p_Nama tidak boleh kosong"), 3): Object 'Object Repository/Christi/Page_Dashboard/p_Nama tidak boleh kosong' is present
+
+2020-05-28 20:19:45 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/p_Nama tidak boleh kosong' is present
+
+2020-05-28 20:19:45 - [TEST_STEP][PASSED] - break: null
+
+2020-05-28 20:19:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-28 20:19:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/tambah reward" time="73.742" classname="Test Cases/Christi/tambah reward" status="PASSED">
+         <system-out><![CDATA[2020-05-28 20:19:46 - [TEST_CASE][PASSED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward
+
+2020-05-28 20:19:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 20:19:46 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-28 20:19:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-28 20:19:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 20:19:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-28 20:19:49 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 20:20:01 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 20:20:01 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 20:20:05 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 20:20:05 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 20:20:07 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 20:20:07 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 20:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 20:20:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 20:20:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:20:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:20:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 20:20:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 20:20:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:20:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:20:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 20:20:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 20:20:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:20:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:20:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text 'Topi ' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 20:20:49 - [MESSAGE][PASSED] - Text 'Topi ' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 20:20:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:20:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:20:52 - [TEST_STEP][PASSED] - if (img_upload == "yes"): null
+
+2020-05-28 20:20:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:20:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:20:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward): Text '' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 20:20:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 20:20:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:20:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:20:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan")): Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 20:20:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 20:20:59 - [TEST_STEP][PASSED] - if (expected == "pass"): null
+
+2020-05-28 20:20:59 - [TEST_STEP][PASSED] - else if (expected == "fail"): null
+
+2020-05-28 20:20:59 - [TEST_STEP][PASSED] - switch (alert.toString()): null
+
+2020-05-28 20:20:59 - [TEST_STEP][PASSED] - Default: null
+
+2020-05-28 20:20:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/button_Simpan"), 3): Object 'Object Repository/Christi/Page_Dashboard/button_Simpan' is present
+
+2020-05-28 20:20:59 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/button_Simpan' is present
+
+2020-05-28 20:20:59 - [TEST_STEP][PASSED] - break: null
+
+2020-05-28 20:20:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-28 20:21:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/tambah reward" time="111.612" classname="Test Cases/Christi/tambah reward" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Christi/tambah reward FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at tambah reward.run(tambah reward:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590671681834.run(TempTestSuite1590671681834.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' located by 'By.xpath: //*[(text() = 'File size exceeded limit. Max upload size is 0.3MB' or . = 'File size exceeded limit. Max upload size is 0.3MB')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-28 20:21:00 - [TEST_CASE][FAILED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at tambah reward.run(tambah reward:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590671681834.run(TempTestSuite1590671681834.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' located by 'By.xpath: //*[(text() = 'File size exceeded limit. Max upload size is 0.3MB' or . = 'File size exceeded limit. Max upload size is 0.3MB')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-28 20:21:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 20:21:00 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-28 20:21:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-28 20:21:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 20:21:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-28 20:21:03 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 20:21:33 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 20:21:33 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 20:21:37 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 20:21:37 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 20:21:38 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 20:21:38 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 20:21:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 20:21:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 20:21:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:21:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:21:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 20:21:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 20:21:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:21:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:21:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 20:21:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 20:21:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:22:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:22:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text 'Kaos' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 20:22:03 - [MESSAGE][PASSED] - Text 'Kaos' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 20:22:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:22:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:22:06 - [TEST_STEP][FAILED] - if (img_upload == "yes"): Unable to verify object 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at tambah reward.run(tambah reward:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590671681834.run(TempTestSuite1590671681834.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' located by 'By.xpath: //*[(text() = 'File size exceeded limit. Max upload size is 0.3MB' or . = 'File size exceeded limit. Max upload size is 0.3MB')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-28 20:22:06 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Christi/Page_Dashboard/input_Reward_files"), img_reward): File 'C:\Users\ASUS\Documents\SOP-Kerja-Praktik-Prodi-Sistem-Informasi.pdf' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-28 20:22:06 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\Documents\SOP-Kerja-Praktik-Prodi-Sistem-Informasi.pdf' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-28 20:22:06 - [TEST_STEP][FAILED] - if (alert == "file to big"): Unable to verify object 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at tambah reward.run(tambah reward:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590671681834.run(TempTestSuite1590671681834.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' located by 'By.xpath: //*[(text() = 'File size exceeded limit. Max upload size is 0.3MB' or . = 'File size exceeded limit. Max upload size is 0.3MB')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-28 20:22:06 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB"), 0): Unable to verify object 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at tambah reward.run(tambah reward:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590671681834.run(TempTestSuite1590671681834.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' located by 'By.xpath: //*[(text() = 'File size exceeded limit. Max upload size is 0.3MB' or . = 'File size exceeded limit. Max upload size is 0.3MB')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-05-28 20:22:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-28 20:22:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'File size exceeded limit. Max upload size is 0.3MB' or . = 'File size exceeded limit. Max upload size is 0.3MB')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-05-28 20:22:51 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' located by 'By.xpath: //*[(text() = 'File size exceeded limit. Max upload size is 0.3MB' or . = 'File size exceeded limit. Max upload size is 0.3MB')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' located by 'By.xpath: //*[(text() = 'File size exceeded limit. Max upload size is 0.3MB' or . = 'File size exceeded limit. Max upload size is 0.3MB')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at tambah reward.run(tambah reward:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590671681834.run(TempTestSuite1590671681834.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200528_201441\\Christi\\Reward Management - Reward Master List\\20200528_201441\\1590672171400.png]]
+
+2020-05-28 20:22:52 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at tambah reward.run(tambah reward:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590671681834.run(TempTestSuite1590671681834.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' located by 'By.xpath: //*[(text() = 'File size exceeded limit. Max upload size is 0.3MB' or . = 'File size exceeded limit. Max upload size is 0.3MB')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200528_201441\\Christi\\Reward Management - Reward Master List\\20200528_201441\\1590672171769.png]]]]></system-out>
+         <system-err><![CDATA[2020-05-28 20:21:00 - [TEST_CASE][FAILED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at tambah reward.run(tambah reward:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590671681834.run(TempTestSuite1590671681834.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' located by 'By.xpath: //*[(text() = 'File size exceeded limit. Max upload size is 0.3MB' or . = 'File size exceeded limit. Max upload size is 0.3MB')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Christi/tambah reward" time="78.622" classname="Test Cases/Christi/tambah reward" status="PASSED">
+         <system-out><![CDATA[2020-05-28 20:22:52 - [TEST_CASE][PASSED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward
+
+2020-05-28 20:22:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 20:22:52 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-28 20:22:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-28 20:22:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-28 20:22:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 20:22:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-28 20:22:55 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 20:23:26 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 20:23:26 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 20:23:31 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 20:23:31 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 20:23:32 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 20:23:32 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 20:23:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 20:23:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 20:23:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:23:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 20:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 20:23:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:23:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:23:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 20:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 20:23:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:23:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:23:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text 'Liburan Keluaraga' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 20:23:52 - [MESSAGE][PASSED] - Text 'Liburan Keluaraga' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 20:23:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:23:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:23:55 - [TEST_STEP][PASSED] - if (img_upload == "yes"): Object 'Object Repository/Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng' is present
+
+2020-05-28 20:23:55 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Christi/Page_Dashboard/input_Reward_files"), img_reward): File 'C:\Users\ASUS\git\HunterCMS\image\01. What Business Are we in (1).pdf' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-28 20:23:55 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\git\HunterCMS\image\01. What Business Are we in (1).pdf' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-28 20:23:55 - [TEST_STEP][PASSED] - if (alert == "file to big"): null
+
+2020-05-28 20:23:55 - [TEST_STEP][PASSED] - else if (alert == "wrong file extension"): Object 'Object Repository/Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng' is present
+
+2020-05-28 20:23:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng"), 0): Object 'Object Repository/Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng' is present
+
+2020-05-28 20:23:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-28 20:23:56 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng' is present
+
+2020-05-28 20:23:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:23:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:23:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward): Text 'paket liburan ke bali selama 1 minggu (sudah termasuk tiket)' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 20:24:00 - [MESSAGE][PASSED] - Text 'paket liburan ke bali selama 1 minggu (sudah termasuk tiket)' is set on object 'Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'
+
+2020-05-28 20:24:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:24:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan")): Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 20:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Simpan' is clicked on
+
+2020-05-28 20:24:03 - [TEST_STEP][PASSED] - if (expected == "pass"): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 20:24:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/nama reward", ["text":nama_reward]), 0): Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 20:24:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-28 20:24:09 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/nama reward' is present
+
+2020-05-28 20:24:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-28 20:24:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-28 20:14:57 - [TEST_SUITE][FAILED] - Reward Management - Reward Master List: Test Cases/Christi/tambah reward FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at tambah reward.run(tambah reward:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590671681834.run(TempTestSuite1590671681834.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' located by 'By.xpath: //*[(text() = 'File size exceeded limit. Max upload size is 0.3MB' or . = 'File size exceeded limit. Max upload size is 0.3MB')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-28 20:14:57 - [TEST_SUITE][FAILED] - Reward Management - Reward Master List: Test Cases/Christi/tambah reward FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at tambah reward.run(tambah reward:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590671681834.run(TempTestSuite1590671681834.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB' located by 'By.xpath: //*[(text() = 'File size exceeded limit. Max upload size is 0.3MB' or . = 'File size exceeded limit. Max upload size is 0.3MB')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

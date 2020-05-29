@@ -17,3 +17,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Christi/Login'), [('username') : 'admin@mail.com', ('password') : 'Password1#'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementPresent(findTestObject(null), 0)
+
+WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/label_Delete'))
+
+WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/label_Apakah Anda yakin ingin menghapus Reward ini'))
+
+WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/button_Hapus'))
+
+WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/div_Delete Master Reward Success'))
+

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Reward Management - Reward Master List" time="92.047" tests="1" failures="0" errors="0">
+   <testsuite name="Reward Management - Reward Master List" tests="1" failures="0" errors="0" time="92.047" timestamp="2020-05-28 20:11:23" hostname="ASUS - LAPTOP-D0TPACJ1" id="Test Suites/Christi/Reward Management - Reward Master List">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200528_201110\\Christi\\Reward Management - Reward Master List\\20200528_201110"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200528_201110\\Christi\\Reward Management - Reward Master List\\20200528_201110\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-D0TPACJ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="192.168.100.227"/>
+         <property name="sessionId" value="1e4c525c0c4dc72633ad23ab3b855594"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Christi/tambah reward" time="90.241" classname="Test Cases/Christi/tambah reward" status="PASSED">
+         <system-out><![CDATA[2020-05-28 20:11:23 - [TEST_CASE][PASSED] - Test Cases/Christi/tambah reward: Test Cases/Christi/tambah reward
+
+2020-05-28 20:11:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 20:11:24 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-28 20:11:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-28 20:11:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-28 20:11:25 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-28 20:11:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-28 20:11:31 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 20:12:08 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-28 20:12:08 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 20:12:15 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-28 20:12:15 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 20:12:16 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-28 20:12:16 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 20:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-28 20:12:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-28 20:12:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:12:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:12:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Main/img_Manage Gamification_picture8")): Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 20:12:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/img_Manage Gamification_picture8' is clicked on
+
+2020-05-28 20:12:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:12:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:12:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward")): Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 20:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward' is clicked on
+
+2020-05-28 20:12:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:12:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:12:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/input_Reward_text1"), nama_reward): Text 'Kaos' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 20:12:47 - [MESSAGE][PASSED] - Text 'Kaos' is set on object 'Object Repository/Christi/Page_Dashboard/input_Reward_text1'
+
+2020-05-28 20:12:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:12:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:12:50 - [TEST_STEP][PASSED] - if (img_upload == "yes"): null
+
+2020-05-28 20:12:50 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Christi/Page_Dashboard/input_Reward_files"), img_reward): File 'C:\Users\ASUS\Documents\SOP-Kerja-Praktik-Prodi-Sistem-Informasi.pdf' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-28 20:12:51 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\Documents\SOP-Kerja-Praktik-Prodi-Sistem-Informasi.pdf' sent to object: 'Object Repository/Christi/Page_Dashboard/input_Reward_files'
+
+2020-05-28 20:12:51 - [TEST_STEP][PASSED] - if (alert == "img to big"): null
+
+2020-05-28 20:12:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-28 20:12:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-28 20:12:54 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward): NOT_RUN: setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward)
+
+2020-05-28 20:12:54 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1"), desc_reward)
+
+2020-05-28 20:12:54 - [TEST_STEP][NOT_RUN] - delay(3): NOT_RUN: delay(3)
+
+2020-05-28 20:12:54 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(3)
+
+2020-05-28 20:12:54 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan")): NOT_RUN: click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan"))
+
+2020-05-28 20:12:54 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Christi/Page_Dashboard/button_Simpan"))
+
+2020-05-28 20:12:54 - [TEST_STEP][NOT_RUN] - if (expected == "pass"): NOT_RUN: if (expected == "pass")
+
+2020-05-28 20:12:54 - [MESSAGE][NOT_RUN] - NOT_RUN: if (expected == "pass")
+
+2020-05-28 20:12:54 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2020-05-28 20:12:54 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-28 20:11:23 - [TEST_SUITE][PASSED] - Reward Management - Reward Master List: Test Cases/Christi/tambah reward]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

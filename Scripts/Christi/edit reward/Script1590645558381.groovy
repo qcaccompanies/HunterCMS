@@ -21,11 +21,22 @@ WebUI.click(findTestObject('Object Repository/Christi/Page_Main/img_Manage Gamif
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/div_Edit'))
+WebUI.click(findTestObject('Christi/Page_1590717297462/Element_1590717331882'))
 
 WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/label_Reset Image'))
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/button_Simpan_Edit'))
+not_run: if (img_upload == 'yes') {
+    WebUI.uploadFile(findTestObject('Christi/Page_Dashboard/input_Reward_files'), img_reward)
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/close_edit_reward dialog'))
+    if (alert == 'file to big') {
+        WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB'), 
+            0)
+    } else if (alert == 'wrong file extension') {
+        WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng'), 0)
+    }
+}
+
+not_run: WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/button_Simpan_Edit'))
+
+not_run: WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/close_edit_reward dialog'))
 

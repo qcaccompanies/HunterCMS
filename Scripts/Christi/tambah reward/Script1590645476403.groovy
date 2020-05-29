@@ -18,29 +18,57 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Christi/Login'), [('username') : 'admin@mail.com', ('password') : 'Password1#'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/Christi/Page_Main/img_Manage Gamification_picture8'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/button_Tambah Reward IconTambah Reward'))
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('Object Repository/Christi/Page_Dashboard/input_Reward_text1'), nama_reward)
+
+WebUI.delay(3)
+
+if (img_upload == 'yes') {
+    WebUI.uploadFile(findTestObject('Christi/Page_Dashboard/input_Reward_files'), img_reward)
+
+    if (alert == 'file to big') {
+        WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/div_File size exceeded limit Max upload size is 03MB'), 
+            0)
+    } else if (alert == 'wrong file extension') {
+        WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/div_Expected file extension is jpegjpgpng'), 0)
+    }
+}
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/Christi/Page_Dashboard/textarea_Deskripsi_textarea1'), desc_reward)
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/span_Tambah Reward'))
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/button_Simpan'))
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/div_Add Master Reward Success'))
+if (expected == 'pass') {
+    WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/nama reward', [('text') : nama_reward]), 0)
+} else if (expected == 'fail') {
+    switch (alert.toString()) {
+        case 'nama kosong':
+            WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/p_Nama tidak boleh kosong'), 3)
 
-WebUI.acceptAlert()
+            break
+        case 'deskripsi kosong':
+            WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/p_Deskripsi tidak boleh kosong'), 3)
 
-WebUI.acceptAlert()
+            break
+        default:
+            WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/button_Simpan'), 3)
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/label_Delete'))
+            break
+    }
+}
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/label_Apakah Anda yakin ingin menghapus Reward ini'))
-
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/button_Hapus'))
-
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/div_Delete Master Reward Success'))
+WebUI.closeBrowser()
 
