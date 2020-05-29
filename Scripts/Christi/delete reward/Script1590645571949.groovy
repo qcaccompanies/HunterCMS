@@ -17,13 +17,23 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Christi/Login'), [('username') : 'admin@mail.com', ('password') : 'Password1#'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject(null), 0)
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Christi/Page_Main/img_Manage Gamification_picture8'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/nama reward', [('text') : nama_reward]), 0)
 
 WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/label_Delete'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/label_Apakah Anda yakin ingin menghapus Reward ini'))
 
-WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/button_Hapus'))
+WebUI.click(findTestObject('Christi/Page_Dashboard/button_Hapus'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Christi/Page_Dashboard/div_Delete Master Reward Success'))
 

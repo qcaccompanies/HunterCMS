@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Change Password" time="114.303" tests="1" failures="0" errors="0">
+   <testsuite name="Change Password" tests="1" failures="0" errors="0" time="114.303" timestamp="2020-05-29 09:44:05" hostname="ASUS - LAPTOP-D0TPACJ1" id="Test Suites/Christi/Change Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200529_094356\\Christi\\Change Password\\20200529_094356"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\HunterCMS\\Reports\\20200529_094356\\Christi\\Change Password\\20200529_094356\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-D0TPACJ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.100.227"/>
+         <property name="sessionId" value="da91d077cc1da0964977c4215702a41e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Christi/Change Password" time="113.499" classname="Test Cases/Christi/Change Password" status="PASSED">
+         <system-out><![CDATA[2020-05-29 09:44:05 - [TEST_CASE][PASSED] - Test Cases/Christi/Change Password: Test Cases/Christi/Change Password
+
+2020-05-29 09:44:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Christi/Login"), ["username":"admin@mail.com", "password":"Password1#"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-29 09:44:07 - [TEST_CASE][PASSED] - Test Cases/Christi/Login: Test Cases/Christi/Login
+
+2020-05-29 09:44:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-29 09:44:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 09:44:08 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-29 09:44:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-29 09:44:13 - [TEST_STEP][PASSED] - navigateToUrl("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-29 09:44:26 - [MESSAGE][PASSED] - Navigate to 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n' successfully
+
+2020-05-29 09:44:26 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_username"), username): Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-29 09:44:29 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Christi/Page_Sign In/input_username'
+
+2020-05-29 09:44:29 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Sign In/input_password"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-29 09:44:29 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Sign In/input_password'
+
+2020-05-29 09:44:29 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Sign In/span_Sign In")): Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-29 09:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Sign In/span_Sign In' is clicked on
+
+2020-05-29 09:44:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Christi/Login' successfully
+
+2020-05-29 09:44:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 09:44:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 09:44:33 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Main/label_Go to Dashboard")): Object: 'Object Repository/Christi/Page_Main/label_Go to Dashboard' is clicked on
+
+2020-05-29 09:44:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Main/label_Go to Dashboard' is clicked on
+
+2020-05-29 09:44:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 09:44:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 09:44:38 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Dashboard/a_Change Password")): Object: 'Object Repository/Christi/Page_Dashboard/a_Change Password' is clicked on
+
+2020-05-29 09:44:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/a_Change Password' is clicked on
+
+2020-05-29 09:44:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 09:44:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 09:44:44 - [TEST_STEP][PASSED] - if (show_pwd == "yes"): Object: 'Object Repository/Christi/Page_Dashboard/img_Testing_eyeOldPassword' is clicked on
+
+2020-05-29 09:44:44 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Dashboard/img_Testing_eyeOldPassword")): Object: 'Object Repository/Christi/Page_Dashboard/img_Testing_eyeOldPassword' is clicked on
+
+2020-05-29 09:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/img_Testing_eyeOldPassword' is clicked on
+
+2020-05-29 09:44:44 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Dashboard/input_Testing_oldPassword"), password): Text 'Password1#' is set on object 'Object Repository/Christi/Page_Dashboard/input_Testing_oldPassword'
+
+2020-05-29 09:44:45 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Christi/Page_Dashboard/input_Testing_oldPassword'
+
+2020-05-29 09:44:45 - [TEST_STEP][PASSED] - if (show_pwd_baru == "yes"): Object: 'Object Repository/Christi/Page_Dashboard/img_Testing_eyePassword' is clicked on
+
+2020-05-29 09:44:45 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Dashboard/img_Testing_eyePassword")): Object: 'Object Repository/Christi/Page_Dashboard/img_Testing_eyePassword' is clicked on
+
+2020-05-29 09:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/img_Testing_eyePassword' is clicked on
+
+2020-05-29 09:44:45 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Dashboard/input_Testing_password"), password_baru): Text 'Password2#' is set on object 'Object Repository/Christi/Page_Dashboard/input_Testing_password'
+
+2020-05-29 09:44:46 - [MESSAGE][PASSED] - Text 'Password2#' is set on object 'Object Repository/Christi/Page_Dashboard/input_Testing_password'
+
+2020-05-29 09:44:46 - [TEST_STEP][PASSED] - if (show_pwd_konfir == "yes"): Object: 'Object Repository/Christi/Page_Dashboard/img_Testing_eyeConfPassword' is clicked on
+
+2020-05-29 09:44:46 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Dashboard/img_Testing_eyeConfPassword")): Object: 'Object Repository/Christi/Page_Dashboard/img_Testing_eyeConfPassword' is clicked on
+
+2020-05-29 09:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/img_Testing_eyeConfPassword' is clicked on
+
+2020-05-29 09:44:46 - [TEST_STEP][PASSED] - setText(findTestObject("Christi/Page_Dashboard/input_Testing_confPassword"), password_konfirmasi): Text 'Password2#' is set on object 'Object Repository/Christi/Page_Dashboard/input_Testing_confPassword'
+
+2020-05-29 09:44:47 - [MESSAGE][PASSED] - Text 'Password2#' is set on object 'Object Repository/Christi/Page_Dashboard/input_Testing_confPassword'
+
+2020-05-29 09:44:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 09:44:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 09:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Dashboard/span_Change Password")): Object: 'Object Repository/Christi/Page_Dashboard/span_Change Password' is clicked on
+
+2020-05-29 09:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/span_Change Password' is clicked on
+
+2020-05-29 09:44:50 - [TEST_STEP][PASSED] - if (expected == "pass"): Object: 'Object Repository/Christi/Page_Dashboard/span_Kirim Ulang OTP' is clicked on
+
+2020-05-29 09:44:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 09:44:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 09:44:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/label_Konfirmasi akun anda dengan memasukkan kode verifikasi yang telah dikirim ke nomor handphone anda"), 0): Object 'Object Repository/Christi/Page_Dashboard/label_Konfirmasi akun anda dengan memasukkan kode verifikasi yang telah dikirim ke nomor handphone anda' is present
+
+2020-05-29 09:44:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-29 09:44:54 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/label_Konfirmasi akun anda dengan memasukkan kode verifikasi yang telah dikirim ke nomor handphone anda' is present
+
+2020-05-29 09:44:54 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-29 09:45:09 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-29 09:45:09 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Christi/Page_Dashboard/input_Kode OTP_text1"), otp): NOT_RUN: setText(findTestObject("Christi/Page_Dashboard/input_Kode OTP_text1"), otp)
+
+2020-05-29 09:45:09 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Christi/Page_Dashboard/input_Kode OTP_text1"), otp)
+
+2020-05-29 09:45:09 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Dashboard/button_KONFIRMASI")): Object: 'Object Repository/Christi/Page_Dashboard/button_KONFIRMASI' is clicked on
+
+2020-05-29 09:45:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/button_KONFIRMASI' is clicked on
+
+2020-05-29 09:45:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 09:45:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 09:45:12 - [TEST_STEP][PASSED] - if (true): Object: 'Object Repository/Christi/Page_Dashboard/span_Kirim Ulang OTP' is clicked on
+
+2020-05-29 09:45:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Christi/Page_Dashboard/label_otp_countDown"), 0): Object 'Object Repository/Christi/Page_Dashboard/label_otp_countDown' is present
+
+2020-05-29 09:45:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-05-29 09:45:55 - [MESSAGE][PASSED] - Object 'Object Repository/Christi/Page_Dashboard/label_otp_countDown' is present
+
+2020-05-29 09:45:55 - [TEST_STEP][PASSED] - click(findTestObject("Christi/Page_Dashboard/span_Kirim Ulang OTP")): Object: 'Object Repository/Christi/Page_Dashboard/span_Kirim Ulang OTP' is clicked on
+
+2020-05-29 09:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Christi/Page_Dashboard/span_Kirim Ulang OTP' is clicked on
+
+2020-05-29 09:45:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 09:45:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 09:45:58 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2020-05-29 09:45:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 09:44:05 - [TEST_SUITE][PASSED] - Change Password: Test Cases/Christi/Change Password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

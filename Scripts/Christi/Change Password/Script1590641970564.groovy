@@ -34,8 +34,6 @@ if (show_pwd == 'yes') {
 
 WebUI.setText(findTestObject('Christi/Page_Dashboard/input_Testing_oldPassword'), password)
 
-WebUI.delay(0)
-
 if (show_pwd_baru == 'yes') {
     WebUI.click(findTestObject('Christi/Page_Dashboard/img_Testing_eyePassword'))
 }
@@ -48,43 +46,55 @@ if (show_pwd_konfir == 'yes') {
 
 WebUI.setText(findTestObject('Christi/Page_Dashboard/input_Testing_confPassword'), password_konfirmasi)
 
-WebUI.delay(0)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Christi/Page_Dashboard/span_Change Password'))
 
 if (expected == 'pass') {
+    WebUI.delay(3)
+
     WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/label_Konfirmasi akun anda dengan memasukkan kode verifikasi yang telah dikirim ke nomor handphone anda'), 
         0)
 
-    WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/div_Kode OTP_gridrow24'), 0)
-
-    WebUI.setText(findTestObject('Christi/Page_Dashboard/input_Kode OTP_text1'), '')
+    'input otp manual'
+    WebUI.delay(15)
 
     WebUI.click(findTestObject('Christi/Page_Dashboard/button_KONFIRMASI'))
 
-    WebUI.click(findTestObject('Christi/Page_Dashboard/close_confirm_otp_dialog'))
-
-    if (true) {
-        WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/label_otp_countDown'), 0)
-
-        WebUI.click(findTestObject('Christi/Page_Dashboard/span_Kirim Ulang OTP'))
-    }
+    WebUI.delay(3)
 } else if (expected == 'fail') {
     switch (status.toString()) {
         case 'wrong pwd criteria':
+            WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/div_Password harus minimal 8 karakter terdiri atas angka huruf kapital dan spesial karakter'), 
+                0)
+
             break
         case 'password lama salah':
+            WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/div_Password lama salah'), 0)
+
             break
         case 'password lama kosong':
+            WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/div_Password lama tidak boleh kosong'), 0)
+
             break
         case 'password baru kosong':
+            WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/div_Password baru tidak boleh kosong'), 0)
+
             break
         case 'password konfir kosong':
+            WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/div_Konfirmasi password baru tidak boleh kosong'), 
+                0)
+
             break
         case 'pwd baru & pwd konfir beda':
+            WebUI.verifyElementPresent(findTestObject('Christi/Page_Dashboard/div_Password baru dan konfirmasi password baru tidak sama'), 
+                0)
+
             break
     }
 }
 
-WebUI.click(findTestObject('Christi/Page_Dashboard/div_Password lama tidak boleh kosong'))
+WebUI.delay(3)
+
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

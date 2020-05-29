@@ -19,58 +19,58 @@
          <combinationType>ONE</combinationType>
          <id>3db560d5-e415-4dfc-812f-15720abfab57</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>7</value>
          </iterationEntity>
-         <testDataId>Data Files/ganti pwd</testDataId>
+         <testDataId>Data Files/Christi/ganti pwd</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>3db560d5-e415-4dfc-812f-15720abfab57</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
+         <value>status</value>
          <variableId>449592fd-b8ee-405b-a8e9-fa5d30e1339d</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>3db560d5-e415-4dfc-812f-15720abfab57</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
+         <value>password</value>
          <variableId>68f04ac0-3b5a-4cd6-9f9d-9ac9840a7856</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>3db560d5-e415-4dfc-812f-15720abfab57</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
+         <value>password_baru</value>
          <variableId>cb58275f-8491-4f23-85e7-32bf3b26c471</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>3db560d5-e415-4dfc-812f-15720abfab57</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
+         <value>password_konfirmasi</value>
          <variableId>3e3fe0fb-be8c-4ef3-b08d-7d34ca2ae0de</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>3db560d5-e415-4dfc-812f-15720abfab57</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
+         <value>show pwd</value>
          <variableId>43f59537-afac-4ada-95b2-d20c3fb5a190</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>3db560d5-e415-4dfc-812f-15720abfab57</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
+         <value>show pwd baru</value>
          <variableId>aa127de6-4639-40d1-9a91-dc93b5dbca98</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>3db560d5-e415-4dfc-812f-15720abfab57</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
+         <value>show pwd konfir</value>
          <variableId>a7e85d98-c382-45ed-92c2-2c1eaf97a3a3</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>3db560d5-e415-4dfc-812f-15720abfab57</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value></value>
-         <variableId>76804b5a-72d6-4259-8cf4-6e0304b1add2</variableId>
+         <value>expected</value>
+         <variableId>087ffe56-084b-4f0a-a48c-541a0dfa62c0</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

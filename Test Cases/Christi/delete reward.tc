@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9d234163-0809-45bd-808c-3164aab8f7f0</testCaseGuid>
+   <variable>
+      <defaultValue>'Kaos acc'</defaultValue>
+      <description></description>
+      <id>f24ed798-0d68-47c9-8d94-6b3242f2af75</id>
+      <masked>false</masked>
+      <name>nama_reward</name>
+   </variable>
 </TestCaseEntity>
