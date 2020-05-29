@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>b4ac4900-409f-4e4b-9244-a46a60e684c9</dataFileGUID>
-   <dataSourceUrl>D:\MY WORLD\WORKS (TUGAS)\HunterCMS\Data Binding Rizka.xlsx</dataSourceUrl>
+   <dataSourceUrl>D:\MY WORLD\WORKS (TUGAS)\HunterCMSNew\Data Binding Rizka.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

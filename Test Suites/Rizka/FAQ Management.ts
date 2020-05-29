@@ -106,8 +106,8 @@
          <combinationType>ONE</combinationType>
          <id>751bb291-e9c8-49eb-a586-e5aa06d95b4a</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>2</value>
+            <iterationType>ALL</iterationType>
+            <value>4</value>
          </iterationEntity>
          <testDataId>Data Files/Rizka/FAQ Management - Edit FAQ</testDataId>
       </testDataLink>

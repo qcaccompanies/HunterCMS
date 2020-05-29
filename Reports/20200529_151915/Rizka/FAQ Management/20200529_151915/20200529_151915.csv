@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FAQ Management,Chrome 83.0.4103.61,,,2020-05-29 15:19:25,2020-05-29 15:20:55,"1m - 29,725s",PASSED
+,,,,,,,
+Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ,Chrome 83.0.4103.61,,,2020-05-29 15:19:26,2020-05-29 15:20:55,"1m - 28,502s",PASSED
+"callTestCase(findTestCase(""Rizka/MainLogin""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.61,,,2020-05-29 15:19:28,2020-05-29 15:20:20,"51,487s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnFAQManagement""))",Chrome 83.0.4103.61,,,2020-05-29 15:20:20,2020-05-29 15:20:22,"2,785s",PASSED
+delay(7),Chrome 83.0.4103.61,,,2020-05-29 15:20:22,2020-05-29 15:20:29,"7,017s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputSearchFAQ""), questionBefore)",Chrome 83.0.4103.61,,,2020-05-29 15:20:29,2020-05-29 15:20:30,"0,847s",PASSED
+"sendKeys(findTestObject(""Rizka/FAQ Management/inputSearchFAQ""), Keys.chord(ENTER))",Chrome 83.0.4103.61,,,2020-05-29 15:20:30,2020-05-29 15:20:31,"0,484s",PASSED
+delay(7),Chrome 83.0.4103.61,,,2020-05-29 15:20:31,2020-05-29 15:20:38,"7,007s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnSettings""))",Chrome 83.0.4103.61,,,2020-05-29 15:20:38,2020-05-29 15:20:38,"0,622s",PASSED
+"click(findTestObject(""Rizka/FAQ Management/btnEdit""))",Chrome 83.0.4103.61,,,2020-05-29 15:20:38,2020-05-29 15:20:39,"0,519s",PASSED
+delay(3),Chrome 83.0.4103.61,,,2020-05-29 15:20:39,2020-05-29 15:20:42,"3,005s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputEditQuestion""), questionAfter)",Chrome 83.0.4103.61,,,2020-05-29 15:20:42,2020-05-29 15:20:43,"0,681s",PASSED
+"setText(findTestObject(""Rizka/FAQ Management/inputEditAns""), answer)",Chrome 83.0.4103.61,,,2020-05-29 15:20:43,2020-05-29 15:20:43,"0,566s",PASSED
+"if (condition == ""passed"")",Chrome 83.0.4103.61,,,2020-05-29 15:20:43,2020-05-29 15:20:43,"0,002s",PASSED
+"else if (condition == ""cancel"")",Chrome 83.0.4103.61,,,2020-05-29 15:20:43,2020-05-29 15:20:43,"0,000s",PASSED
+else,Chrome 83.0.4103.61,,,2020-05-29 15:20:43,2020-05-29 15:20:55,"11,593s",PASSED

@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FAQ Management" time="461.425" tests="5" failures="0" errors="0">
+   <testsuite name="FAQ Management" tests="5" failures="0" errors="0" time="461.425" timestamp="2020-05-29 15:43:51" hostname="rizkajuliant20 - DESKTOP-NHES7H6" id="Test Suites/Rizka/FAQ Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MY WORLD\\WORKS (TUGAS)\\HunterCMSNew\\Reports\\20200529_154335\\Rizka\\FAQ Management\\20200529_154335"/>
+         <property name="logFiles" value="D:\\MY WORLD\\WORKS (TUGAS)\\HunterCMSNew\\Reports\\20200529_154335\\Rizka\\FAQ Management\\20200529_154335\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizkajuliant20 - DESKTOP-NHES7H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="fc3aeeb073dbe5b1572e4ff3614f8b74"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ" time="97.69" classname="Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ" status="PASSED">
+         <system-out><![CDATA[2020-05-29 15:43:52 - [TEST_CASE][PASSED] - Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ: Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ
+
+2020-05-29 15:43:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/MainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-29 15:43:53 - [TEST_CASE][PASSED] - Test Cases/Rizka/MainLogin: Test Cases/Rizka/MainLogin
+
+2020-05-29 15:43:54 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-29 15:43:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 15:43:54 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-29 15:44:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-29 15:44:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 15:44:23 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 15:44:23 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-29 15:44:38 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-29 15:44:38 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputUsername"), "admin@mail.com"): Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-29 15:44:39 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-29 15:44:39 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputPassword"), "Password1#"): Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-29 15:44:40 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-29 15:44:40 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEyePass")): Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-29 15:44:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-29 15:44:40 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSignIn")): Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-29 15:44:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-29 15:44:41 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-29 15:44:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-29 15:44:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-29 15:44:51 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnFAQManagement")): Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-29 15:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-29 15:44:54 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-29 15:45:01 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-29 15:45:01 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), questionBefore): Text 'Apa keuntungan menjadi PEOJF?' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:45:02 - [MESSAGE][PASSED] - Text 'Apa keuntungan menjadi PEOJF?' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:45:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:45:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:45:02 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-29 15:45:09 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-29 15:45:09 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSettings")): Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:45:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:45:10 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEdit")): Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:45:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:45:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 15:45:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 15:45:13 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputEditQuestion"), questionAfter): Text 'Question Edit 1' is set on object 'Object Repository/Rizka/FAQ Management/inputEditQuestion'
+
+2020-05-29 15:45:14 - [MESSAGE][PASSED] - Text 'Question Edit 1' is set on object 'Object Repository/Rizka/FAQ Management/inputEditQuestion'
+
+2020-05-29 15:45:14 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputEditAns"), answer): Text 'Answer Edit 1' is set on object 'Object Repository/Rizka/FAQ Management/inputEditAns'
+
+2020-05-29 15:45:15 - [MESSAGE][PASSED] - Text 'Answer Edit 1' is set on object 'Object Repository/Rizka/FAQ Management/inputEditAns'
+
+2020-05-29 15:45:15 - [TEST_STEP][PASSED] - if (condition == "passed"): Actual text 'Answer Edit 1' and expected text 'Answer Edit 1' are matched 
+
+2020-05-29 15:45:15 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSimpanEdit")): Object: 'Object Repository/Rizka/FAQ Management/btnSimpanEdit' is clicked on
+
+2020-05-29 15:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSimpanEdit' is clicked on
+
+2020-05-29 15:45:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-29 15:45:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-29 15:45:20 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), ""): Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:45:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:45:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:45:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:45:21 - [TEST_STEP][PASSED] - if (questionAfter != ""): Text 'Question Edit 1' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:45:21 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), questionAfter): Text 'Question Edit 1' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:45:24 - [MESSAGE][PASSED] - Text 'Question Edit 1' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:45:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:45:25 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:45:25 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSettings")): Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:45:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:45:28 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEdit")): Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:45:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:45:28 - [TEST_STEP][PASSED] - atribut1 = getAttribute(findTestObject("Rizka/FAQ Management/inputEditQuestion"), "value"): Attribute 'value' of object 'Object Repository/Rizka/FAQ Management/inputEditQuestion' is: 'Question Edit 1'
+
+2020-05-29 15:45:29 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Rizka/FAQ Management/inputEditQuestion' is: 'Question Edit 1'
+
+2020-05-29 15:45:29 - [TEST_STEP][PASSED] - atribut2 = getAttribute(findTestObject("Rizka/FAQ Management/inputEditAns"), "value"): Attribute 'value' of object 'Object Repository/Rizka/FAQ Management/inputEditAns' is: 'Answer Edit 1'
+
+2020-05-29 15:45:29 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Rizka/FAQ Management/inputEditAns' is: 'Answer Edit 1'
+
+2020-05-29 15:45:29 - [TEST_STEP][PASSED] - if (questionAfter == ""): null
+
+2020-05-29 15:45:29 - [TEST_STEP][PASSED] - else: Actual text 'Question Edit 1' and expected text 'Question Edit 1' are matched 
+
+2020-05-29 15:45:29 - [TEST_STEP][PASSED] - verifyMatch(atribut1, questionAfter, false): Actual text 'Question Edit 1' and expected text 'Question Edit 1' are matched 
+
+2020-05-29 15:45:29 - [MESSAGE][PASSED] - Actual text 'Question Edit 1' and expected text 'Question Edit 1' are matched 
+
+2020-05-29 15:45:29 - [TEST_STEP][PASSED] - if (answer == ""): null
+
+2020-05-29 15:45:29 - [TEST_STEP][PASSED] - else: Actual text 'Answer Edit 1' and expected text 'Answer Edit 1' are matched 
+
+2020-05-29 15:45:29 - [TEST_STEP][PASSED] - verifyMatch(atribut2, answer, false): Actual text 'Answer Edit 1' and expected text 'Answer Edit 1' are matched 
+
+2020-05-29 15:45:29 - [MESSAGE][PASSED] - Actual text 'Answer Edit 1' and expected text 'Answer Edit 1' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ" time="91.831" classname="Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ" status="PASSED">
+         <system-out><![CDATA[2020-05-29 15:45:30 - [TEST_CASE][PASSED] - Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ: Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ
+
+2020-05-29 15:45:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/MainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-29 15:45:30 - [TEST_CASE][PASSED] - Test Cases/Rizka/MainLogin: Test Cases/Rizka/MainLogin
+
+2020-05-29 15:45:30 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-29 15:45:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-29 15:45:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 15:45:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-29 15:45:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 15:45:54 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 15:45:54 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-29 15:46:09 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-29 15:46:09 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputUsername"), "admin@mail.com"): Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-29 15:46:10 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-29 15:46:10 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputPassword"), "Password1#"): Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-29 15:46:11 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-29 15:46:11 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEyePass")): Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-29 15:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-29 15:46:11 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSignIn")): Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-29 15:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-29 15:46:12 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-29 15:46:22 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-29 15:46:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-29 15:46:22 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnFAQManagement")): Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-29 15:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-29 15:46:26 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-29 15:46:33 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-29 15:46:33 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), questionBefore): Text 'Apa itu PEOJF?' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:46:34 - [MESSAGE][PASSED] - Text 'Apa itu PEOJF?' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:46:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:46:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:46:35 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-29 15:46:42 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-29 15:46:42 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSettings")): Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:46:42 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEdit")): Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:46:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 15:46:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 15:46:46 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputEditQuestion"), questionAfter): Text 'Question Edit 2' is set on object 'Object Repository/Rizka/FAQ Management/inputEditQuestion'
+
+2020-05-29 15:46:47 - [MESSAGE][PASSED] - Text 'Question Edit 2' is set on object 'Object Repository/Rizka/FAQ Management/inputEditQuestion'
+
+2020-05-29 15:46:47 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputEditAns"), answer): Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputEditAns'
+
+2020-05-29 15:46:47 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputEditAns'
+
+2020-05-29 15:46:47 - [TEST_STEP][PASSED] - if (condition == "passed"): Actual text 'Petugas Eksternal ACC yang bertugas untuk membantu ACC dalam penarikan unit yang dianggap hilang/lebih dari 60 hari (WO) ' and expected text '' are not matched 
+
+2020-05-29 15:46:47 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSimpanEdit")): Object: 'Object Repository/Rizka/FAQ Management/btnSimpanEdit' is clicked on
+
+2020-05-29 15:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSimpanEdit' is clicked on
+
+2020-05-29 15:46:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-29 15:46:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-29 15:46:53 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), ""): Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:46:53 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:46:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:46:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:46:54 - [TEST_STEP][PASSED] - if (questionAfter != ""): Text 'Question Edit 2' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:46:54 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), questionAfter): Text 'Question Edit 2' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:46:57 - [MESSAGE][PASSED] - Text 'Question Edit 2' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:46:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:46:57 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:46:57 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSettings")): Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:47:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:47:00 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEdit")): Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:47:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:47:00 - [TEST_STEP][PASSED] - atribut1 = getAttribute(findTestObject("Rizka/FAQ Management/inputEditQuestion"), "value"): Attribute 'value' of object 'Object Repository/Rizka/FAQ Management/inputEditQuestion' is: 'Question Edit 2'
+
+2020-05-29 15:47:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Rizka/FAQ Management/inputEditQuestion' is: 'Question Edit 2'
+
+2020-05-29 15:47:01 - [TEST_STEP][PASSED] - atribut2 = getAttribute(findTestObject("Rizka/FAQ Management/inputEditAns"), "value"): Attribute 'value' of object 'Object Repository/Rizka/FAQ Management/inputEditAns' is: 'Petugas Eksternal ACC yang bertugas untuk membantu ACC dalam penarikan unit yang dianggap hilang/lebih dari 60 hari (WO) '
+
+2020-05-29 15:47:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Rizka/FAQ Management/inputEditAns' is: 'Petugas Eksternal ACC yang bertugas untuk membantu ACC dalam penarikan unit yang dianggap hilang/lebih dari 60 hari (WO) '
+
+2020-05-29 15:47:01 - [TEST_STEP][PASSED] - if (questionAfter == ""): null
+
+2020-05-29 15:47:01 - [TEST_STEP][PASSED] - else: Actual text 'Question Edit 2' and expected text 'Question Edit 2' are matched 
+
+2020-05-29 15:47:01 - [TEST_STEP][PASSED] - verifyMatch(atribut1, questionAfter, false): Actual text 'Question Edit 2' and expected text 'Question Edit 2' are matched 
+
+2020-05-29 15:47:01 - [MESSAGE][PASSED] - Actual text 'Question Edit 2' and expected text 'Question Edit 2' are matched 
+
+2020-05-29 15:47:01 - [TEST_STEP][PASSED] - if (answer == ""): Actual text 'Petugas Eksternal ACC yang bertugas untuk membantu ACC dalam penarikan unit yang dianggap hilang/lebih dari 60 hari (WO) ' and expected text '' are not matched 
+
+2020-05-29 15:47:01 - [TEST_STEP][PASSED] - verifyNotMatch(atribut2, answer, false): Actual text 'Petugas Eksternal ACC yang bertugas untuk membantu ACC dalam penarikan unit yang dianggap hilang/lebih dari 60 hari (WO) ' and expected text '' are not matched 
+
+2020-05-29 15:47:01 - [MESSAGE][PASSED] - Actual text 'Petugas Eksternal ACC yang bertugas untuk membantu ACC dalam penarikan unit yang dianggap hilang/lebih dari 60 hari (WO) ' and expected text '' are not matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ" time="93.058" classname="Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ" status="PASSED">
+         <system-out><![CDATA[2020-05-29 15:47:01 - [TEST_CASE][PASSED] - Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ: Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ
+
+2020-05-29 15:47:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/MainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-29 15:47:02 - [TEST_CASE][PASSED] - Test Cases/Rizka/MainLogin: Test Cases/Rizka/MainLogin
+
+2020-05-29 15:47:02 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-29 15:47:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-29 15:47:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 15:47:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-29 15:47:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 15:47:27 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 15:47:27 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-29 15:47:42 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-29 15:47:42 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputUsername"), "admin@mail.com"): Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-29 15:47:43 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-29 15:47:43 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputPassword"), "Password1#"): Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-29 15:47:44 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-29 15:47:44 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEyePass")): Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-29 15:47:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-29 15:47:44 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSignIn")): Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-29 15:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-29 15:47:45 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-29 15:47:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-29 15:47:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-29 15:47:55 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnFAQManagement")): Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-29 15:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-29 15:47:59 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-29 15:48:06 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-29 15:48:06 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), questionBefore): Text 'Apa itu informan?' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:48:07 - [MESSAGE][PASSED] - Text 'Apa itu informan?' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:48:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:48:08 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:48:08 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-29 15:48:15 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-29 15:48:15 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSettings")): Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:48:15 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEdit")): Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:48:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 15:48:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 15:48:19 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputEditQuestion"), questionAfter): Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputEditQuestion'
+
+2020-05-29 15:48:19 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputEditQuestion'
+
+2020-05-29 15:48:19 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputEditAns"), answer): Text 'Answer Edit 3' is set on object 'Object Repository/Rizka/FAQ Management/inputEditAns'
+
+2020-05-29 15:48:20 - [MESSAGE][PASSED] - Text 'Answer Edit 3' is set on object 'Object Repository/Rizka/FAQ Management/inputEditAns'
+
+2020-05-29 15:48:20 - [TEST_STEP][PASSED] - if (condition == "passed"): Actual text 'Answer Edit 3' and expected text 'Answer Edit 3' are matched 
+
+2020-05-29 15:48:20 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSimpanEdit")): Object: 'Object Repository/Rizka/FAQ Management/btnSimpanEdit' is clicked on
+
+2020-05-29 15:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSimpanEdit' is clicked on
+
+2020-05-29 15:48:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-29 15:48:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-29 15:48:26 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), ""): Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:48:26 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:48:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:48:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:48:27 - [TEST_STEP][PASSED] - if (questionAfter != ""): null
+
+2020-05-29 15:48:27 - [TEST_STEP][PASSED] - else: Text 'Apa itu informan?' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:48:27 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), questionBefore): Text 'Apa itu informan?' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:48:30 - [MESSAGE][PASSED] - Text 'Apa itu informan?' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:48:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:48:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:48:30 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSettings")): Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:48:33 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEdit")): Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:48:33 - [TEST_STEP][PASSED] - atribut1 = getAttribute(findTestObject("Rizka/FAQ Management/inputEditQuestion"), "value"): Attribute 'value' of object 'Object Repository/Rizka/FAQ Management/inputEditQuestion' is: 'Apa itu informan?'
+
+2020-05-29 15:48:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Rizka/FAQ Management/inputEditQuestion' is: 'Apa itu informan?'
+
+2020-05-29 15:48:34 - [TEST_STEP][PASSED] - atribut2 = getAttribute(findTestObject("Rizka/FAQ Management/inputEditAns"), "value"): Attribute 'value' of object 'Object Repository/Rizka/FAQ Management/inputEditAns' is: 'Answer Edit 3'
+
+2020-05-29 15:48:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Rizka/FAQ Management/inputEditAns' is: 'Answer Edit 3'
+
+2020-05-29 15:48:34 - [TEST_STEP][PASSED] - if (questionAfter == ""): Actual text 'Apa itu informan?' and expected text '' are not matched 
+
+2020-05-29 15:48:34 - [TEST_STEP][PASSED] - verifyNotMatch(atribut1, questionAfter, false): Actual text 'Apa itu informan?' and expected text '' are not matched 
+
+2020-05-29 15:48:34 - [MESSAGE][PASSED] - Actual text 'Apa itu informan?' and expected text '' are not matched 
+
+2020-05-29 15:48:34 - [TEST_STEP][PASSED] - if (answer == ""): null
+
+2020-05-29 15:48:34 - [TEST_STEP][PASSED] - else: Actual text 'Answer Edit 3' and expected text 'Answer Edit 3' are matched 
+
+2020-05-29 15:48:34 - [TEST_STEP][PASSED] - verifyMatch(atribut2, answer, false): Actual text 'Answer Edit 3' and expected text 'Answer Edit 3' are matched 
+
+2020-05-29 15:48:34 - [MESSAGE][PASSED] - Actual text 'Answer Edit 3' and expected text 'Answer Edit 3' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ" time="93.06" classname="Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ" status="PASSED">
+         <system-out><![CDATA[2020-05-29 15:48:35 - [TEST_CASE][PASSED] - Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ: Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ
+
+2020-05-29 15:48:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/MainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-29 15:48:35 - [TEST_CASE][PASSED] - Test Cases/Rizka/MainLogin: Test Cases/Rizka/MainLogin
+
+2020-05-29 15:48:35 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-29 15:48:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-29 15:48:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 15:49:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-29 15:49:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 15:49:01 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 15:49:01 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-29 15:49:16 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-29 15:49:16 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputUsername"), "admin@mail.com"): Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-29 15:49:17 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-29 15:49:17 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputPassword"), "Password1#"): Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-29 15:49:18 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-29 15:49:18 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEyePass")): Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-29 15:49:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-29 15:49:18 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSignIn")): Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-29 15:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-29 15:49:19 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-29 15:49:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-29 15:49:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-29 15:49:29 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnFAQManagement")): Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-29 15:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-29 15:49:32 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-29 15:49:39 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-29 15:49:39 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), questionBefore): Text 'Bagaimana cara meredeem poin?' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:49:40 - [MESSAGE][PASSED] - Text 'Bagaimana cara meredeem poin?' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:49:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:49:41 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:49:41 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-29 15:49:48 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-29 15:49:48 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSettings")): Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:49:48 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEdit")): Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:49:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 15:49:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 15:49:52 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputEditQuestion"), questionAfter): Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputEditQuestion'
+
+2020-05-29 15:49:52 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputEditQuestion'
+
+2020-05-29 15:49:52 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputEditAns"), answer): Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputEditAns'
+
+2020-05-29 15:49:53 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputEditAns'
+
+2020-05-29 15:49:53 - [TEST_STEP][PASSED] - if (condition == "passed"): Actual text 'Dicoba dulu' and expected text '' are not matched 
+
+2020-05-29 15:49:53 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSimpanEdit")): Object: 'Object Repository/Rizka/FAQ Management/btnSimpanEdit' is clicked on
+
+2020-05-29 15:49:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSimpanEdit' is clicked on
+
+2020-05-29 15:49:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-29 15:49:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-29 15:49:58 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), ""): Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:49:59 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:49:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:49:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:49:59 - [TEST_STEP][PASSED] - if (questionAfter != ""): null
+
+2020-05-29 15:49:59 - [TEST_STEP][PASSED] - else: Text 'Bagaimana cara meredeem poin?' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:49:59 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), questionBefore): Text 'Bagaimana cara meredeem poin?' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:50:03 - [MESSAGE][PASSED] - Text 'Bagaimana cara meredeem poin?' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:50:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:50:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:50:03 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSettings")): Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:50:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:50:06 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEdit")): Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:50:07 - [TEST_STEP][PASSED] - atribut1 = getAttribute(findTestObject("Rizka/FAQ Management/inputEditQuestion"), "value"): Attribute 'value' of object 'Object Repository/Rizka/FAQ Management/inputEditQuestion' is: 'Bagaimana cara meredeem poin?'
+
+2020-05-29 15:50:07 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Rizka/FAQ Management/inputEditQuestion' is: 'Bagaimana cara meredeem poin?'
+
+2020-05-29 15:50:07 - [TEST_STEP][PASSED] - atribut2 = getAttribute(findTestObject("Rizka/FAQ Management/inputEditAns"), "value"): Attribute 'value' of object 'Object Repository/Rizka/FAQ Management/inputEditAns' is: 'Dicoba dulu'
+
+2020-05-29 15:50:08 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Rizka/FAQ Management/inputEditAns' is: 'Dicoba dulu'
+
+2020-05-29 15:50:08 - [TEST_STEP][PASSED] - if (questionAfter == ""): Actual text 'Bagaimana cara meredeem poin?' and expected text '' are not matched 
+
+2020-05-29 15:50:08 - [TEST_STEP][PASSED] - verifyNotMatch(atribut1, questionAfter, false): Actual text 'Bagaimana cara meredeem poin?' and expected text '' are not matched 
+
+2020-05-29 15:50:08 - [MESSAGE][PASSED] - Actual text 'Bagaimana cara meredeem poin?' and expected text '' are not matched 
+
+2020-05-29 15:50:08 - [TEST_STEP][PASSED] - if (answer == ""): Actual text 'Dicoba dulu' and expected text '' are not matched 
+
+2020-05-29 15:50:08 - [TEST_STEP][PASSED] - verifyNotMatch(atribut2, answer, false): Actual text 'Dicoba dulu' and expected text '' are not matched 
+
+2020-05-29 15:50:08 - [MESSAGE][PASSED] - Actual text 'Dicoba dulu' and expected text '' are not matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ" time="82.76" classname="Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ" status="PASSED">
+         <system-out><![CDATA[2020-05-29 15:50:08 - [TEST_CASE][PASSED] - Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ: Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ
+
+2020-05-29 15:50:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Rizka/MainLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-29 15:50:08 - [TEST_CASE][PASSED] - Test Cases/Rizka/MainLogin: Test Cases/Rizka/MainLogin
+
+2020-05-29 15:50:08 - [TEST_STEP][PASSED] - openBrowser("https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n"): Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-29 15:50:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-29 15:50:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 15:50:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://appsrv1.deltadatamandiri.com/ACC_Hunter_Web/#/S19n1n'
+
+2020-05-29 15:50:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-29 15:50:28 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-29 15:50:28 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-05-29 15:50:43 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-05-29 15:50:43 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputUsername"), "admin@mail.com"): Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-29 15:50:44 - [MESSAGE][PASSED] - Text 'admin@mail.com' is set on object 'Object Repository/Rizka/FAQ Management/inputUsername'
+
+2020-05-29 15:50:44 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputPassword"), "Password1#"): Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-29 15:50:45 - [MESSAGE][PASSED] - Text 'Password1#' is set on object 'Object Repository/Rizka/FAQ Management/inputPassword'
+
+2020-05-29 15:50:45 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEyePass")): Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-29 15:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEyePass' is clicked on
+
+2020-05-29 15:50:45 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSignIn")): Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-29 15:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSignIn' is clicked on
+
+2020-05-29 15:50:46 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-05-29 15:50:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-05-29 15:50:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rizka/MainLogin' successfully
+
+2020-05-29 15:50:56 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnFAQManagement")): Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-29 15:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnFAQManagement' is clicked on
+
+2020-05-29 15:51:03 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-29 15:51:10 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-29 15:51:10 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), questionBefore): Text 'Bagaimana cara saya mendapatkan poin?' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:51:11 - [MESSAGE][PASSED] - Text 'Bagaimana cara saya mendapatkan poin?' is set on object 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:51:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Rizka/FAQ Management/inputSearchFAQ"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:51:12 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Rizka/FAQ Management/inputSearchFAQ'
+
+2020-05-29 15:51:12 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2020-05-29 15:51:19 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2020-05-29 15:51:19 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnSettings")): Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnSettings' is clicked on
+
+2020-05-29 15:51:19 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnEdit")): Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:51:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnEdit' is clicked on
+
+2020-05-29 15:51:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-29 15:51:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-29 15:51:23 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputEditQuestion"), questionAfter): Text 'Question Edit 4' is set on object 'Object Repository/Rizka/FAQ Management/inputEditQuestion'
+
+2020-05-29 15:51:24 - [MESSAGE][PASSED] - Text 'Question Edit 4' is set on object 'Object Repository/Rizka/FAQ Management/inputEditQuestion'
+
+2020-05-29 15:51:24 - [TEST_STEP][PASSED] - setText(findTestObject("Rizka/FAQ Management/inputEditAns"), answer): Text 'Answer Edit 4' is set on object 'Object Repository/Rizka/FAQ Management/inputEditAns'
+
+2020-05-29 15:51:24 - [MESSAGE][PASSED] - Text 'Answer Edit 4' is set on object 'Object Repository/Rizka/FAQ Management/inputEditAns'
+
+2020-05-29 15:51:24 - [TEST_STEP][PASSED] - if (condition == "passed"): null
+
+2020-05-29 15:51:24 - [TEST_STEP][PASSED] - else if (condition == "cancel"): Text 'Question Edit 4' is not present on page
+
+2020-05-29 15:51:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-29 15:51:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-29 15:51:29 - [TEST_STEP][PASSED] - click(findTestObject("Rizka/FAQ Management/btnCancelEdit")): Object: 'Object Repository/Rizka/FAQ Management/btnCancelEdit' is clicked on
+
+2020-05-29 15:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Rizka/FAQ Management/btnCancelEdit' is clicked on
+
+2020-05-29 15:51:30 - [TEST_STEP][PASSED] - verifyTextNotPresent(questionAfter, false): Text 'Question Edit 4' is not present on page
+
+2020-05-29 15:51:30 - [MESSAGE][PASSED] - Text 'Question Edit 4' is not present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 15:43:51 - [TEST_SUITE][PASSED] - FAQ Management: Test Cases/Rizka/FAQ Management/FAQ Management - Edit FAQ]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

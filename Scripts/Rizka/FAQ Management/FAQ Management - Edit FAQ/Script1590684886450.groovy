@@ -43,32 +43,42 @@ if (condition == 'passed') {
 
     WebUI.delay(5)
 
-    WebUI.setText(findTestObject('Rizka/FAQ Management/inputSearchFAQ'), questionAfter)
+    WebUI.setText(findTestObject('Rizka/FAQ Management/inputSearchFAQ'), '')
 
     WebUI.sendKeys(findTestObject('Rizka/FAQ Management/inputSearchFAQ'), Keys.chord(Keys.ENTER))
 
-    WebUI.verifyTextPresent(questionAfter, false)
+    if (questionAfter != '') {
+        WebUI.setText(findTestObject('Rizka/FAQ Management/inputSearchFAQ'), questionAfter)
+    } else {
+        WebUI.setText(findTestObject('Rizka/FAQ Management/inputSearchFAQ'), questionBefore)
+    }
+    
+    WebUI.sendKeys(findTestObject('Rizka/FAQ Management/inputSearchFAQ'), Keys.chord(Keys.ENTER))
+
+    WebUI.click(findTestObject('Rizka/FAQ Management/btnSettings'))
+
+    WebUI.click(findTestObject('Rizka/FAQ Management/btnEdit'))
+
+    atribut1 = WebUI.getAttribute(findTestObject('Rizka/FAQ Management/inputEditQuestion'), 'value')
+
+    atribut2 = WebUI.getAttribute(findTestObject('Rizka/FAQ Management/inputEditAns'), 'value')
+
+    if (questionAfter == '') {
+        WebUI.verifyNotMatch(atribut1, questionAfter, false)
+    } else {
+        WebUI.verifyMatch(atribut1, questionAfter, false)
+    }
+    
+    if (answer == '') {
+        WebUI.verifyNotMatch(atribut2, answer, false)
+    } else {
+        WebUI.verifyMatch(atribut2, answer, false)
+    }
 } else if (condition == 'cancel') {
     WebUI.delay(5)
 
     WebUI.click(findTestObject('Rizka/FAQ Management/btnCancelEdit'))
 
     WebUI.verifyTextNotPresent(questionAfter, false)
-} else {
-    WebUI.click(findTestObject('Rizka/FAQ Management/btnSimpanEdit'))
-
-    WebUI.delay(5)
-
-    WebUI.setText(findTestObject('Rizka/FAQ Management/inputSearchFAQ'), questionAfter)
-
-    WebUI.sendKeys(findTestObject('Rizka/FAQ Management/inputSearchFAQ'), Keys.chord(Keys.ENTER))
-
-    WebUI.verifyTextPresent(questionAfter, false)
-
-    WebUI.click(findTestObject('Rizka/FAQ Management/btnSettings'))
-
-    WebUI.click(findTestObject('Rizka/FAQ Management/btnEdit'))
-
-    WebUI.verifyTextNotPresent(answer, false)
 }
 
